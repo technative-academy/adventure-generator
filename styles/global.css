@@ -8,7 +8,9 @@
 @import "./statsCard.css";
 @import "./tabsCard.css";
 
-
+body {
+    margin: 0;
+}
 
 :root {
     /*Colours*/

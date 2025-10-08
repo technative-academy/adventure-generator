@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--footer-c);
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer p {
+    color: white;
+    margin: auto;
+}
