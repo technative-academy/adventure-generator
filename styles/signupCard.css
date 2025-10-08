@@ -1,0 +1,26 @@
+.signup__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.signup__card__text__content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    align-items: start;
+}
+
+.signup__card__image {
+    border-radius: 10px;
+}
+
+.signup__card__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
+    padding: 4%;
+    border: none;
+    border-radius: 5px;
+}
