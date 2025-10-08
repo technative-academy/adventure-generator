@@ -1,0 +1,10 @@
+.tabs___card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tabs__card__img {
+    width: 35%;
+    border-radius: 10px;
+}
