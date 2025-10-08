@@ -6,5 +6,10 @@
     --text-headings-c : #403f4a;
     --text-body-c : #585662;
     --footer-c : #29282e;
-    /*Font */
+    /*Font*/
+    --primary-font : Inter, monospace;
+}
+
+* {
+    font-family: var(--primary-font)
 }
