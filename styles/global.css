@@ -1,3 +1,15 @@
+@import "./header.css";
+@import "./footer.css"; 
+@import "./aboutCard.css";
+@import "./contactCard.css";
+@import "./factsCard.css";
+@import "./productsCard.css";
+@import "./signupCard.css";
+@import "./statsCard.css";
+@import "./tabsCard.css";
+
+
+
 :root {
     /*Colours*/
     --primary-c : #64b81c;
