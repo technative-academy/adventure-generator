@@ -132,7 +132,52 @@
                     <button>84.7% of stats are important</button>
                 </section>
             </div>
-            <div data-tab="products" class="tab"></div>
+            <div data-tab="products" class="tab">
+                <section class="card products__card white__bg">
+                    <h2 class="products__card__heading">
+                        Find the product you're looking for
+                    </h2>
+                    <form class="products__card__form">
+                        <input
+                            type="text"
+                            name="search"
+                            placeholder="Search products"
+                            class="products__card__form__input"
+                        />
+                        <button
+                            type="submit"
+                            name="submit_button"
+                            class="products__card__form__button"
+                        >
+                            Search
+                        </button>
+                    </form>
+                    <p class="products__card__results__number">
+                        <em>some products found</em>
+                    </p>
+                    <div class="products__card__result">
+                        <img class="products__card__result__image" />
+                        <h3 class="products__card__result__heading">
+                            Product Title
+                        </h3>
+                        <p class="products__card__result__description">
+                            <em
+                                >Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quasi esse fuga aperiam</em
+                            >
+                        </p>
+                        <div class="products__card__result__rating">
+                            <!-- pictures of stars will be inserted here using JS -->
+                        </div>
+                        <p class="products__card__result__cost">
+                            <strong>6.99£</strong>
+                        </p>
+                    </div>
+                    <!-- show more button will appear here if there are 
+                     more results than could be fitted on the screen
+                     will be done using JS-->
+                </section>
+            </div>
             <div data-tab="about" class="tab"></div>
         </main>
         <footer class="footer">
