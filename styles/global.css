@@ -1,15 +1,19 @@
+body {
+    margin: 0;
+}
+
 :root {
     /*Colours*/
-    --primary-c : #64b81c;
-    --primary-tint-c : #edf4e7;
-    --background-c : #fbfbfe;
-    --text-headings-c : #403f4a;
-    --text-body-c : #585662;
-    --footer-c : #29282e;
+    --primary-c: #64b81c;
+    --primary-tint-c: #edf4e7;
+    --background-c: #fbfbfe;
+    --text-headings-c: #403f4a;
+    --text-body-c: #585662;
+    --footer-c: #29282e;
     /*Font*/
-    --primary-font : Inter, monospace;
+    --primary-font: Inter, monospace;
 }
 
 * {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
 }
