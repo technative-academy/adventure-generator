@@ -1,0 +1,14 @@
+.references {
+    display: flex;
+    flex-direction: column;
+}
+
+.references__text {
+    color: var(--text-body-c);
+}
+
+.references__logo__container {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
