@@ -3,7 +3,7 @@
     margin-top: 2rem;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .facts__card__item {
@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     width: 20rem;
-    margin: 1rem;
+    margin: 3rem;
     text-align: center;
 }   
 
