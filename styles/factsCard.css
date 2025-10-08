@@ -1,0 +1,26 @@
+.facts__card__container {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.facts__card__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    margin: 1rem;
+    text-align: center;
+}   
+
+.facts__card__item img {
+    width: 5rem;
+    height: auto;
+}
+
+.facts__card h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
