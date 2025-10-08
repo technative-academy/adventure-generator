@@ -1,6 +1,10 @@
 .references {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .references__text {
@@ -10,5 +14,12 @@
 .references__logo__container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
     gap: 10%;
+}
+
+.references__logo {
+    max-width: 10%;
 }
