@@ -1,10 +1,36 @@
-.tabs___card {
+.tabs__card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 4rem;
 }
 
 .tabs__card__img {
     width: 35%;
     border-radius: 10px;
+}
+
+.tabs__card__list {
+    width: 20%;
+    margin-left: 10%;
+    list-style: none;
+}
+
+.tabs__card__list button {
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--primary-c);
+}
+
+.tabs__card__list button:hover {
+    background-color: var(--primary-c);
+    cursor: pointer;
+}
+
+.tabs__card__list button:active {
+    color: var(--text-headings-c);
+    margin-bottom: 0;
+    border-left: 1rem solid var(--primary-c);
 }
