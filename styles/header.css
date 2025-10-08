@@ -12,6 +12,7 @@
     overflow: hidden;
     margin-bottom: -50px;
     position: relative;
+    z-index: -10;
 }
 
 .nav {
