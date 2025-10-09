@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+    box-sizing: border-box;
 }
 
 .facts__card__item {
@@ -17,14 +18,17 @@
     width: 20rem;
     margin: 3rem;
     text-align: center;
+    box-sizing: border-box;
 }   
 
 .facts__card__item img {
     width: 5rem;
     height: auto;
+    box-sizing: border-box;
 }
 
 .facts__card h2 {
     margin-top: 2rem;
     text-align: center;
+    box-sizing: border-box;
 }
