@@ -1,14 +1,16 @@
 import Tabs from './tabs.js'
 import cardTabs from './tabsCard.js'
+import JsonParser from './jsonParser.js'
 
 const tabs = new Tabs('.nav', '.main')
 
 document.addEventListener('DOMContentLoaded', () => {
-    cardTabs()
+    cardTabs();
+    tabs();
 })
-import JsonParser from './jsonParser.js'
 
-const tabs = new Tabs('.nav', '.main')
+
+
 const jsonParser = new JsonParser()
 
 jsonParser.getProducts('')

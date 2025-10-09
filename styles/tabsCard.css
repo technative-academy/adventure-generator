@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 4rem;
+    height: fit-content;
 }
 
 .tabs__card__list {
@@ -41,7 +42,7 @@
     display: none;
     box-sizing: border-box;
     width: 40%;
-    height: 40%;
+    height: 35%;
     border-radius: 10px;
 }
 
@@ -49,6 +50,6 @@
     display: block;
     box-sizing: border-box;
     width: 40%;
-    height: 40%;
+    max-height: 20rem;
     border-radius: 10px;
 }
