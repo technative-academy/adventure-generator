@@ -10,6 +10,7 @@
 @import './card.css';
 @import './references.css';
 
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -33,6 +34,7 @@ body {
 }
 
 .main {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;

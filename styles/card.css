@@ -1,4 +1,5 @@
 .tinted__bg {
     background-color: var(--primary-tint-c);
     margin-top: 3rem;
+    box-sizing: border-box;
 }

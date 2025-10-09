@@ -12,10 +12,12 @@
     flex-direction: column;
     margin-right: 5%;
     align-items: start;
+    box-sizing: border-box;
 }
 
 .signup__card__image {
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .signup__card__button {
