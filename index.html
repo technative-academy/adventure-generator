@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Adventure Generator</title>
+        <script defer type="module" src="scripts/main.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -16,30 +17,20 @@
         <header class="header">
             <img src="assets/adventureGeneratorLogo.svg" />
             <nav class="nav">
-                <ul class="nav__list">
-                    <li>
-                        <button data-tab="home" class="nav__list__button">
-                            Home
-                        </button>
-                    </li>
-                    <li>
-                        <button data-tab="products" class="nav__list__button">
-                            Products
-                        </button>
-                    </li>
-                    <li>
-                        <button data-tab="about" class="nav__list__button">
-                            About
-                        </button>
-                    </li>
-                </ul>
+                <button data-tab="home" class="nav__list__button">Home</button>
+                <button data-tab="products" class="nav__list__button">
+                    Products
+                </button>
+                <button data-tab="about" class="nav__list__button">
+                    About
+                </button>
             </nav>
             <h1 class="header__heading">Something Profound etc</h1>
             <p class="header__footnote">blah blah blah</p>
         </header>
         <main class="main">
             <img class="header__image" src="./assets/extreme_hiker.jpg" />
-            <div data-tab="home" class="tab">
+            <div data-tab="home" class="tab selected__tab">
                 <section class="references white__bg">
                     <p class="references__text">
                         TRUSTED BY SOME COMPANIES YOU MAY HAVE HEARD OF

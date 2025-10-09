@@ -40,3 +40,17 @@ body {
     margin: 0 auto;
     width: 100%;
 }
+
+.selected__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
+}
+
+.tab {
+    display: none;
+}
+
+.selected__tab {
+    display: flex;
+    flex-direction: column;
+}
