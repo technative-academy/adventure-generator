@@ -33,6 +33,28 @@ class Tabs {
         clickedButton.classList.add('selected__button')
         detailsElement.classList.add('selected__tab')
         console.log('button ' + tabId + ' has been pressed')
+
+        this.chooseContent(tabId)
+    }
+
+    chooseContent(tab) {
+        const heading = document.querySelector('.header__heading')
+        const footnote = document.querySelector('.header__footnote')
+        const image = document.querySelector('.header__image')
+
+        if (tab == 'home') {
+            heading.textContent = 'Something profound about our company'
+            footnote.textContent = "Tagline eg. 'We do talking, you do walking'"
+            image.style.display = 'initial'
+        } else if (tab == 'products') {
+            heading.textContent = 'Our products'
+            footnote.textContent = 'experience is not free'
+            image.style.display = 'none'
+        } else {
+            heading.textContent = 'About us'
+            footnote.textContent = "that's why we are important"
+            image.style.display = 'none'
+        }
     }
 }
 

@@ -43,6 +43,7 @@
 }
 
 .header__image {
+    display: initial;
     width: 70%;
     height: auto;
     z-index: 1000;
