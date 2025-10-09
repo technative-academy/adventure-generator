@@ -43,7 +43,16 @@ body {
     width: 100%;
 }
 
-h2 {
-    font-size: 2.5rem;
+.selected__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
 }
 
+.tab {
+    display: none;
+}
+
+.selected__tab {
+    display: flex;
+    flex-direction: column;
+}
