@@ -28,6 +28,11 @@
     cursor: pointer;
 }
 
+.products__card__results__number {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .products__card__form__button:hover {
     background-color: var(--primary-tint-c);
     color: var(--primary-c);
