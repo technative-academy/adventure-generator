@@ -1,3 +1,7 @@
+.facts__card {
+    box-sizing: border-box;
+}
+
 .facts__card__container {
     display: flex;
     margin-top: 2rem;

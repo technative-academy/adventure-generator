@@ -12,6 +12,7 @@
 
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -36,5 +37,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    width: 100%;
 }
 

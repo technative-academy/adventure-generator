@@ -1,0 +1,25 @@
+.products__card {
+    box-sizing: border-box;
+}
+.products__card__heading {
+    width: 100%;
+    text-align: center;
+}
+
+.products__card__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.products__card__result {
+    width: 20%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__card__result__image {
+    border-radius: 1rem;
+}
