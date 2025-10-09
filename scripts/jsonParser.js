@@ -1,3 +1,5 @@
+import hideContent from './hideContent.js'
+
 class JsonParser {
     constructor() {
         this.productsContainer = document.querySelector(
@@ -47,6 +49,7 @@ class JsonParser {
 
                     this.productsContainer.appendChild(prDiv)
                 })
+                hideContent(this.productsContainer)
             })
             .catch((error) => {
                 this.dataError = true

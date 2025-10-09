@@ -10,7 +10,6 @@
 @import './card.css';
 @import './references.css';
 
-
 body {
     margin: 0;
     box-sizing: border-box;
@@ -55,4 +54,21 @@ body {
 .selected__tab {
     display: flex;
     flex-direction: column;
+}
+.show__more__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    height: min-content;
+    margin: 0 auto;
+    align-self: center;
+    flex-basis: 100%;
+    order: 9999;
+}
+
+.hidden__content {
+    display: none;
 }
