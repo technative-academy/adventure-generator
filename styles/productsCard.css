@@ -6,6 +6,33 @@
     text-align: center;
 }
 
+.products__card__form {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.products__card__form__input {
+    padding: 1rem;
+    border: 2px solid var(--primary-c);
+    border-radius: 5px 0 0 5px;
+    width: 30%;
+}
+
+.products__card__form__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.products__card__form__button:hover {
+    background-color: var(--primary-tint-c);
+    color: var(--primary-c);
+}
+
 .products__card__container {
     display: flex;
     justify-content: space-evenly;
