@@ -1,0 +1,54 @@
+.stats__card {
+    box-sizing: border-box;
+}
+
+.stats__card__heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.stats__card__quote {
+    text-align: center;
+    font-style: italic;
+    margin: 2rem auto;
+    width: 60%;
+    display: block;
+    font-size: 2rem;
+}
+
+.stats__card__tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    width: 60%;
+    margin: 3rem auto;
+}
+
+
+.stats__card__tabs__button {
+    width: 50%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--primary-c);
+}
+
+.stats__card__tabs__button:hover {
+    background-color: var(--primary-c);
+    cursor: pointer;
+}
+
+.stats__card__big__button {
+    background-color: var(--primary-c);
+    color: var(--primary-tint-c);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    display: block;
+    width: 60%;
+}
