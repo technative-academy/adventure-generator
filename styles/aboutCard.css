@@ -1,0 +1,31 @@
+.about__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+.about__card__text__content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    align-items: start;
+    max-width: 35%;
+}
+
+.about__card__visual__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+}
+
+.about__card__image {
+    width: 100%;
+    border-radius: 10px;
+}
