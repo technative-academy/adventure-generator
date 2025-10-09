@@ -19,6 +19,7 @@ body {
     /*Colours*/
     --primary-c: #64b81c;
     --primary-tint-c: #edf4e7;
+    --secondary-tint-c: #c9d3c0;
     --background-c: #fbfbfe;
     --text-headings-c: #403f4a;
     --text-body-c: #585662;
@@ -39,4 +40,3 @@ body {
     margin: 0 auto;
     width: 100%;
 }
-
