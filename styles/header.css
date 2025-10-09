@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 3rem;
 }
 
 .nav__list {
@@ -26,8 +27,7 @@
     list-style: none;
     flex-direction: row;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    
 }
 
 .nav__list__button {
@@ -36,6 +36,12 @@
     border: none;
     cursor: pointer;
     margin: 0 3rem;
+    font-size: 1.3rem;
+}
+
+.nav__list__button:hover {
+    color: var(--text-headings-c);
+    border-bottom: 2px solid var(--text-headings-c);
 }
 
 .header__footnote {

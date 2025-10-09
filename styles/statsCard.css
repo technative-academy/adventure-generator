@@ -27,6 +27,19 @@
     margin: 3rem auto;
 }
 
+.stats__card__quote__container {
+    margin-top: 3rem;
+    height: 10rem;  
+}
+.stats__card__quote {
+    display: none;
+}
+
+.stats__card__quote--active {
+    display: block;
+}
+
+
 
 .stats__card__tabs__button {
     width: 50%;
@@ -39,6 +52,13 @@
 .stats__card__tabs__button:hover {
     background-color: var(--primary-c);
     cursor: pointer;
+}
+
+.stats__card__tabs__button--active {
+    margin-bottom: 0;
+    border-top: 0.5rem solid var(--primary-c);
+    border-bottom: none;
+    background-color: none;
 }
 
 .stats__card__big__button {

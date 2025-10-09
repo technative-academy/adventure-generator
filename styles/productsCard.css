@@ -1,5 +1,6 @@
 .products__card {
     box-sizing: border-box;
+    margin-top: 3rem;
 }
 .products__card__heading {
     width: 100%;
