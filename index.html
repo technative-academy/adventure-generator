@@ -62,28 +62,56 @@
                     <img
                         class="tabs__card__img"
                         src="./assets/backpacker.jpg"
+                        data-tab="hiking"
+                    />
+                    <img
+                        class="tabs__card__img"
+                        src="./assets/kayak2.jpg"
+                        data-tab="floating"
+                    />
+                    <img
+                        class="tabs__card__img"
+                        src="./assets/biplane.jpg"
+                        data-tab="flying"
+                    />
+                    <img
+                        class="tabs__card__img"
+                        src="./assets/gitpalm.jpg"
+                        data-tab="git"
                     />
                     <ul class="tabs__card__list">
                         <li>
-                            <button>
+                            <button
+                                data-for-tab="hiking"
+                                class="tabs__card__list__button"
+                            >
                                 <h3>Hiking Adventures</h3>
                                 <p>first tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button
+                                data-for-tab="floating"
+                                class="tabs__card__list__button"
+                            >
                                 <h3>Floating Adventures</h3>
                                 <p>Second tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button
+                                data-for-tab="flying"
+                                class="tabs__card__list__button"
+                            >
                                 <h3>Flying Adventures</h3>
                                 <p>Third tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button
+                                data-for-tab="git"
+                                class="tabs__card__list__button"
+                            >
                                 <h3>Git Adventures</h3>
                                 <p>Fourth tab subtitle</p>
                             </button>
@@ -143,21 +171,26 @@
                     />
                 </section>
                 <section class="card stats__card white__bg">
-                    <h2 class="stats__card__heading">What people think about us</h2>
-                    <q class="stats__card__quote">"Best adventure I've ever had. Better than that time I slept in a camel"</q>
+                    <h2 class="stats__card__heading">
+                        What people think about us
+                    </h2>
+                    <q class="stats__card__quote"
+                        >"Best adventure I've ever had. Better than that time I
+                        slept in a camel"</q
+                    >
                     <div class="stats__card__tabs">
-                    <button class="stats__card__tabs__button">
-                        <h3>Bear Grylls</h3>
-                        <p>Famous Adventurer</p>
-                    </button>
-                    <button class="stats__card__tabs__button">
-                        <h3>Jane Doe</h3>
-                        <p>Professional Hiker</p>
-                    </button>
-                    <button class="stats__card__tabs__button">
-                        <h3>John Smith</h3>
-                        <p>Hot air enthusiast</p>
-                    </button>
+                        <button class="stats__card__tabs__button">
+                            <h3>Bear Grylls</h3>
+                            <p>Famous Adventurer</p>
+                        </button>
+                        <button class="stats__card__tabs__button">
+                            <h3>Jane Doe</h3>
+                            <p>Professional Hiker</p>
+                        </button>
+                        <button class="stats__card__tabs__button">
+                            <h3>John Smith</h3>
+                            <p>Hot air enthusiast</p>
+                        </button>
                     </div>
                     <button class="stats__card__big__button">
                         84.7% of stats are important
