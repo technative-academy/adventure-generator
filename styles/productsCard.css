@@ -54,4 +54,5 @@
 
 .products__card__result__image {
     border-radius: 1rem;
+    max-width: 100%;
 }
