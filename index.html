@@ -17,13 +17,11 @@
         <header class="header">
             <img src="assets/adventureGeneratorLogo.svg" />
             <nav class="nav">
-                <button data-tab="home" class="nav__list__button">Home</button>
-                <button data-tab="products" class="nav__list__button">
+                <button data-tab="home" class="tab__button">Home</button>
+                <button data-tab="products" class="tab__button">
                     Products
                 </button>
-                <button data-tab="about" class="nav__list__button">
-                    About
-                </button>
+                <button data-tab="about" class="tab__button">About</button>
             </nav>
             <h1 class="header__heading">Something Profound etc</h1>
             <p class="header__footnote">blah blah blah</p>
@@ -60,58 +58,46 @@
                 </section>
                 <section class="card tabs__card tinted__bg">
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/backpacker.jpg"
                         data-tab="hiking"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/kayak2.jpg"
                         data-tab="floating"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/biplane.jpg"
                         data-tab="flying"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/gitpalm.jpg"
                         data-tab="git"
                     />
                     <ul class="tabs__card__list">
                         <li>
-                            <button
-                                data-for-tab="hiking"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="hiking" class="tab__button">
                                 <h3>Hiking Adventures</h3>
                                 <p>first tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="floating"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="floating" class="tab__button">
                                 <h3>Floating Adventures</h3>
                                 <p>Second tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="flying"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="flying" class="tab__button">
                                 <h3>Flying Adventures</h3>
                                 <p>Third tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="git"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="git" class="tab__button">
                                 <h3>Git Adventures</h3>
                                 <p>Fourth tab subtitle</p>
                             </button>
@@ -175,39 +161,39 @@
                         What people think about us
                     </h2>
                     <div class="stats__card__quote__container">
-                        <q class="stats__card__quote" data-tab="bear"
+                        <q class="tab selected__tab .stats__card__quote" data-tab="bear"
                             >"Best adventure I've ever had. Better than that
                             time I slept in a camel"</q
                         >
-                        <q class="stats__card__quote" data-tab="jane"
+                        <q class="tab selected__tab .stats__card__quote" data-tab="jane"
                             >"About as much fun as you can have on a hike.
                             Walked a lot, didn't get eaten by a mountain
                             lion."</q
                         >
-                        <q class="stats__card__quote" data-tab="john"
+                        <q class="tab selected__tab .stats__card__quote" data-tab="john"
                             >"Balloons are just the best way to travel, except
                             the lack of directional control and fear of instant
                             death."</q
                         >
                     </div>
-                    <div class="stats__card__tabs">
+                    <div class="stats__card__list">
                         <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="bear"
+                            class="tab__button"
+                            data-tab="bear"
                         >
                             <h3>Bear Grylls</h3>
                             <p>Famous Adventurer</p>
                         </button>
                         <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="jane"
+                            class="tab__button"
+                            data-tab="jane"
                         >
                             <h3>Jane Doe</h3>
                             <p>Professional Hiker</p>
                         </button>
                         <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="john"
+                            class="tab__button"
+                            data-tab="john"
                         >
                             <h3>John Smith</h3>
                             <p>Hot air enthusiast</p>

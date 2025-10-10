@@ -1,19 +1,18 @@
-import Tabs from './tabs.js'
-import cardTabs from './tabsCard.js'
+import Tabs from './allTabs.js'
+//import cardTabs from './tabsCard.js'
 import JsonParser from './jsonParser.js'
-import statsTabs from './statsCard.js'
+//import statsTabs from './statsCard.js'
 
 const tabs = new Tabs('.nav', '.main')
+const cardTabs = new Tabs('.tabs__card__list', '.tabs__card')
+const statsTabs = new Tabs('.stats__card__list', '.stats__card')
 
 const jsonParser = new JsonParser()
 
 jsonParser.getProducts('')
 
- document.addEventListener('DOMContentLoaded', () => {
-        statsTabs()
-        cardTabs()
-        document.querySelector('.stats__card__tabs__button').click();
-        document.querySelector('.tabs__card__list__button').click();
-        document.querySelector('.nav__list__button').click();
-    })
-
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.nav .tab__button').click()
+    document.querySelector('.tabs__card .tab__button').click()
+    document.querySelector('.stats__card .tab__button').click()
+})
