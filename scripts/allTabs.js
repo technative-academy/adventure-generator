@@ -1,8 +1,7 @@
 class Tabs {
     constructor(selector, tabSelecteor) {
         this.buttonsContainer = document.querySelector(selector)
-        this.tabButtons =
-            this.buttonsContainer.querySelectorAll('.tab__button')
+        this.tabButtons = this.buttonsContainer.querySelectorAll('.tab__button')
         this.tabsContainer = document.querySelector(tabSelecteor)
         this.tabContents = this.tabsContainer.querySelectorAll('.tab')
 
@@ -46,7 +45,7 @@ class Tabs {
             heading.textContent = 'Something profound about our company'
             footnote.textContent = "Tagline eg. 'We do talking, you do walking'"
             image.style.display = 'initial'
-            document.querySelector('.tabs__card .tab__button').click()
+            document.querySelector('.tabs__card .tab__button').click() //these have created a bug with the home page
             document.querySelector('.stats__card .tab__button').click()
         } else if (tab == 'products') {
             heading.textContent = 'Our products'

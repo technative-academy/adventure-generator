@@ -16,4 +16,3 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.tabs__card .tab__button').click()
     document.querySelector('.stats__card .tab__button').click()
 })
-
