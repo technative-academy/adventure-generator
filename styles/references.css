@@ -16,7 +16,6 @@
 .references__logo__container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: inherit;
@@ -24,5 +23,16 @@
 }
 
 .references__logo {
-    max-width: 10%;
+    width: 6rem;
+}
+
+@media  screen and (max-width:780px) {
+    .references__logo {
+        width: 4rem;
+        margin: .5rem;
+    }
+
+    .references {
+        padding: 1rem;
+    }
 }

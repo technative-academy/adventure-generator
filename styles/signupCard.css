@@ -11,14 +11,16 @@
     display: flex;
     flex-direction: column;
     margin-right: 5%;
-    align-items: start;
+    justify-content: center;
     box-sizing: border-box;
+    width: 30%;
 }
 
 .signup__card__image {
     border-radius: 10px;
-    width: 80%;
+    width: 60%;
     box-sizing: border-box;
+    margin-top: 2rem;
 }
 
 .signup__card__button {
@@ -28,3 +30,30 @@
     border: none;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 780px) {
+    .signup__card {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .signup__card__image {
+        width: 100%;
+    }
+
+    .signup__card__heading {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .signup__card__text__content {
+        width: 80%;
+        align-items: center;
+    }
+
+    .signup__card__button {
+        width: 80%;
+    }
+}
+

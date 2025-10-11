@@ -15,6 +15,10 @@
     position: relative;
 }
 
+.header__heading {
+    text-align: center;
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -56,10 +60,20 @@
 }
 
 .header__image {
-    display: initial;
-    width: 60%;
+    
+    width: 80%;
     height: auto;
     z-index: 1000;
     border-radius: 20px;
     margin-top: 2rem;
+}
+
+@media screen and (max-width:780px) {
+    .header__img {
+        width: 100%;
+    }
+
+    .nav .tab__button {
+        font-size: 1rem;
+    }
 }

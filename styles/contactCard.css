@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    max-width: 35%;
+    width: 35%;
 }
 
 .contact__card__form {
@@ -55,6 +55,34 @@
     width: fit-content;
 }
 
+.map__container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .contact__card__map {
-    width: 100%;
+    width: 20rem;
+    display: block;
+}
+
+@media screen and (max-width: 780px) {
+    .contact__card {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact__card__heading {
+        font-size: 1.5rem;
+    }
+
+    .map__container {
+        margin-top: 3rem;
+        margin-left: 45%;
+    }
+
+    .contact__card__form__content {
+        width: 80%;
+    }
 }

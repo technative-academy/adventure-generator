@@ -128,7 +128,9 @@ q:after {
     }
 
     .stats__card__big__button {
+        width: 100%;
         padding: 2rem;
         font-size: 1rem;
+        border-radius: 0;
     }
 }
