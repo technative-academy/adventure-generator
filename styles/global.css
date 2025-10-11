@@ -68,12 +68,18 @@ h2 {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    width: fit-content;
-    height: min-content;
+    width: 40%;
+    height: fit-content;
     margin: 0 auto;
     align-self: center;
-    flex-basis: 100%;
+    margin-bottom: 2rem;
     order: 9999;
+}
+
+.show__more__button:hover {
+    background-color: var(--primary-tint-c);
+    color: var(--primary-c);
+    transform: scale(1.1);
 }
 
 .hidden__content {

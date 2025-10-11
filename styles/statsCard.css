@@ -61,13 +61,13 @@ q:after {
 }
 
 .stats__card .tab__button:hover {
-    background-color: var(--primary-c);
+    background-color:  rgb(192, 192, 192);
     cursor: pointer;
 }
 
 .stats__card .selected__button {
     color: black;
-    border-top: 0.5rem solid var(--primary-c);
+    border-top: 0.4rem solid var(--primary-c);
     border-bottom: none;
     box-sizing: border-box;
     width: 70%;
@@ -84,6 +84,12 @@ q:after {
     margin: 3rem auto;
     display: block;
     width: 80%;
+}
+
+.stats__card__big__button:hover {
+    background-color: rgb(192, 192, 192);;
+    color: var(--primary-c);
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 780px) {

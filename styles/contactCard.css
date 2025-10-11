@@ -12,10 +12,10 @@
 .contact__card__address__content {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: start;
     margin-right: 10%;
-    max-width: 35%;
+    width: 35%;
 }
 
 .contact__card__form__content {
@@ -53,6 +53,12 @@
     border: none;
     border-radius: 5px;
     width: fit-content;
+}
+
+.contact__card__form__button:hover {
+    background-color: rgb(192, 192, 192);;
+    color: var(--primary-c);
+    transform: scale(1.05);
 }
 
 .map__container {
