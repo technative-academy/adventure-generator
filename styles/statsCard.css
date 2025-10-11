@@ -7,6 +7,7 @@
     width: 100%;
     text-align: center;
     margin-top: 3rem;
+    box-sizing: border-box;
 }
 
 .stats__card__quote__container {
@@ -15,23 +16,24 @@
     align-items: center;
     font-style: italic;
     margin: 4rem auto;
-    height: 10rem;  
+    height: 10rem;
     font-size: 2rem;
     text-align: center;
     width: 60%;
+    box-sizing: border-box;
 }
 
-
-
-q:before, q:after{ content: "";}
-
-
+q:before,
+q:after {
+    content: '';
+}
 
 .tab .stats__card__quote {
     display: none;
 }
 
 .stats__card__list {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -46,15 +48,16 @@ q:before, q:after{ content: "";}
 }
 
 .stats__card .tab__button {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
+    width: 70%;
     padding: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 0 1rem;
     background-color: transparent;
     border: none;
+    
 }
 
 .stats__card .tab__button:hover {
@@ -66,7 +69,8 @@ q:before, q:after{ content: "";}
     color: black;
     border-top: 0.5rem solid var(--primary-c);
     border-bottom: none;
-    background-color: white;
+    box-sizing: border-box;
+    width: 70%;
 }
 
 .stats__card__big__button {
@@ -80,4 +84,51 @@ q:before, q:after{ content: "";}
     margin: 3rem auto;
     display: block;
     width: 80%;
+}
+
+@media screen and (max-width: 780px) {
+    .button__portrait {
+        width: 1rem;
+        border-radius: 0.5rem;
+        height: 1rem;
+        margin-top: 1rem;
+    }
+
+    .stats__card .tab__button {
+        width: 20%;
+        padding: 0;
+        margin: 0 2%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .stats__card .selected__button {
+        color: black;
+        border-top: 0.3rem solid var(--primary-c);
+        box-sizing: border-box;
+        margin: 0 2%;
+        width: 20%;
+    }
+
+    .stats__button__text h3 {
+        font-size: 0.7rem;
+    }
+
+    .stats__button__text p {
+        font-size: 0.5rem;
+    }
+
+    .stats__card__quote__container {
+        font-size: 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .stats__card__list {
+        width: 100%;
+    }
+
+    .stats__card__big__button {
+        padding: 2rem;
+        font-size: 1rem;
+    }
 }

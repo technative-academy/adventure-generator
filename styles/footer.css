@@ -50,3 +50,17 @@
 .socials__image:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 780px) {
+    .footer__top {
+        padding: 0 1rem;
+    }
+
+    .footer__bottom {
+        padding: 0 1rem;
+    }
+
+    .footer ul li button {
+        font-size: 0.7rem !important;
+    }
+}

@@ -58,7 +58,9 @@ h2 {
 .selected__tab {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
+
 .show__more__button {
     background-color: var(--primary-c);
     color: var(--primary-tint-c);
@@ -75,4 +77,18 @@ h2 {
 
 .hidden__content {
     display: none;
+}
+
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
 }

@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 4rem 0;
     height: fit-content;
 }
 
@@ -12,6 +12,7 @@
     width: 20%;
     margin-left: 5%;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .tabs__card .tab__button {
@@ -41,4 +42,9 @@
     width: 40%;
     max-height: 20rem;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:500px) {
+    
 }
