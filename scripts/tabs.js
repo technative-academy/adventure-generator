@@ -1,4 +1,4 @@
-class Tabs {
+/* class Tabs {
     constructor(selector, tabSelecteor) {
         this.buttonsContainer = document.querySelector(selector)
         this.tabButtons =

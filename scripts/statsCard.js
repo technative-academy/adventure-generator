@@ -1,4 +1,4 @@
-function statsTabs() {
+/* function statsTabs() {
     document
         .querySelectorAll('.stats__card__tabs__button')
         .forEach((button) => {

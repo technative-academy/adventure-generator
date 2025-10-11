@@ -39,6 +39,6 @@
 .selected__tab .tabs__card img  {
     box-sizing: border-box;
     width: 40%;
-    height: 30%;
+    max-height: 20rem;
     border-radius: 10px;
 }

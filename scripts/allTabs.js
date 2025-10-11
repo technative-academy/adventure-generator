@@ -1,8 +1,8 @@
 class Tabs {
-    constructor(selector, tabSelecteor) {
+    constructor(selector, tabSelector) {
         this.buttonsContainer = document.querySelector(selector)
         this.tabButtons = this.buttonsContainer.querySelectorAll('.tab__button')
-        this.tabsContainer = document.querySelector(tabSelecteor)
+        this.tabsContainer = document.querySelector(tabSelector)
         this.tabContents = this.tabsContainer.querySelectorAll('.tab')
 
         this.tabButtons.forEach((tabButton) => {
