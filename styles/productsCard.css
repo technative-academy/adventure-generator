@@ -66,6 +66,16 @@
     overflow: hidden;
 }
 
+.lit__star {
+    filter: brightness(0) saturate(100%) invert(79%) sepia(91%) saturate(784%)
+        hue-rotate(13deg) brightness(98%) contrast(94%);
+}
+
+.star {
+    width: 3vw;
+    height: 3vw;
+}
+
 @media screen and (max-width: 780px) {
     .products__card__form__input {
         width: 80%;
