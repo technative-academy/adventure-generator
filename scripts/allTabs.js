@@ -49,7 +49,7 @@ class Tabs {
             heading.textContent = 'Our products'
             footnote.textContent = 'experience is not free'
             image.style.display = 'none'
-        } else {
+        } else if (tab == 'about') {
             heading.textContent = 'About us'
             footnote.textContent = "that's why we are important"
             image.style.display = 'none'

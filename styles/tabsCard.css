@@ -34,14 +34,11 @@
     border-left: 0.5rem solid var(--primary-c);
 }
 
-.tabs__card__list__button--active {
-    color: var(--text-headings-c);
-    border-left: 0.5rem solid var(--primary-c);
-}
 
-.selected__tab .tabs__card img {
+
+.selected__tab .tabs__card img  {
     box-sizing: border-box;
     width: 40%;
-    height: 35%;
+    height: 30%;
     border-radius: 10px;
 }
