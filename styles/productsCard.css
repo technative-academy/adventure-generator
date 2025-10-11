@@ -52,10 +52,11 @@
     padding: 3rem;
     display: flex;
     flex-direction: column;
+    transition: all 0.5s;
 }
 
 .products__card__result:hover {
-    transform: scale(1.1);
+    transform: scale(110%);
 }
 
 .products__card__result__image {
@@ -64,7 +65,6 @@
     max-height: 15rem;
     overflow: hidden;
 }
-
 
 @media screen and (max-width: 780px) {
     .products__card__form__input {
