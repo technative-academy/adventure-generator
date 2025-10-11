@@ -45,6 +45,8 @@ class Tabs {
             heading.textContent = 'Something profound about our company'
             footnote.textContent = "Tagline eg. 'We do talking, you do walking'"
             image.style.display = 'initial'
+            document.querySelector('.tabs__card .tab__button').click()
+            document.querySelector('.stats__card .tab__button').click()
         } else if (tab == 'products') {
             heading.textContent = 'Our products'
             footnote.textContent = 'experience is not free'
