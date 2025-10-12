@@ -15,11 +15,16 @@
     </head>
     <body>
         <header class="header">
-            <img src="assets/adventureGeneratorLogo.svg" />
+            <div class="header__top">
+                <img src="assets/adventureGeneratorLogo.svg" />
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
             <nav class="nav">
-                <button data-tab="home" class="tab__button initial__tab">
-                    Home
-                </button>
+                <button data-tab="home" class="tab__button">Home</button>
                 <button data-tab="products" class="tab__button">
                     Products
                 </button>
@@ -60,26 +65,26 @@
                 </section>
                 <section class="card tabs__card tinted__bg">
                     <div class="tabs__card__image__container">
-                    <img
-                        class="tab selected__tab"
-                        src="./assets/backpacker.jpg"
-                        data-tab="hiking"
-                    />
-                    <img
-                        class="tab selected__tab"
-                        src="./assets/kayak2.jpg"
-                        data-tab="floating"
-                    />
-                    <img
-                        class="tab selected__tab"
-                        src="./assets/biplane.jpg"
-                        data-tab="flying"
-                    />
-                    <img
-                        class="tab selected__tab"
-                        src="./assets/gitpalm.jpg"
-                        data-tab="git"
-                    />
+                        <img
+                            class="tab selected__tab"
+                            src="./assets/backpacker.jpg"
+                            data-tab="hiking"
+                        />
+                        <img
+                            class="tab selected__tab"
+                            src="./assets/kayak2.jpg"
+                            data-tab="floating"
+                        />
+                        <img
+                            class="tab selected__tab"
+                            src="./assets/biplane.jpg"
+                            data-tab="flying"
+                        />
+                        <img
+                            class="tab selected__tab"
+                            src="./assets/gitpalm.jpg"
+                            data-tab="git"
+                        />
                     </div>
                     <ul class="tabs__card__list">
                         <li>

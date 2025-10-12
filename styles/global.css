@@ -9,6 +9,7 @@
 @import './tabsCard.css';
 @import './card.css';
 @import './references.css';
+@import './burgerMenu.css';
 
 body {
     margin: 0;
