@@ -19,12 +19,27 @@
     margin: 1rem;
     text-align: center;
     box-sizing: border-box;
+    background-color: var(--primary-tint-c);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--primary-c);
+    padding: 15px;
+    transition: all 0.5s;
 }
 
-.facts__card__item img {
+.facts__card__item:hover {
+    transform: scale(110%);
+}
+
+.facts__card__item__icon {
     width: 5rem;
     height: auto;
     box-sizing: border-box;
+}
+
+.facts__card__item__title {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: var(--primary-c);
 }
 
 .facts__card h2 {
@@ -38,17 +53,17 @@
         min-width: 6rem;
     }
 
-    .facts__card__item img {
+    .facts__card__item__icon {
         width: 3rem;
         height: auto;
         box-sizing: border-box;
     }
 
-    .facts__card h4 {
+    .facts__card__item__title {
         font-size: 0.7rem;
     }
 
-    .facts__card p {
+    .facts__card__item__caption {
         font-size: 0.5rem;
     }
 }
