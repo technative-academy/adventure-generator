@@ -53,7 +53,7 @@ class Tabs {
             image.style.display = 'none'
         } else if (tab == 'about') {
             heading.textContent = 'About us'
-            footnote.textContent = "that's why we are important"
+            footnote.textContent = "It's not all about you"
             image.style.display = 'none'
         }
     }
