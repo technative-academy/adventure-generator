@@ -10,6 +10,7 @@
 
 .tabs__card__list {
     width: 20%;
+    min-width: 15rem;
     margin-left: 5%;
     list-style: none;
     box-sizing: border-box;
@@ -51,11 +52,11 @@
     }
 
     .selected__tab .tabs__card img {
-        width: 90%;
+        width: 100%;
     }
 
     .tabs__card__list {
-        width: 70%;
+        width: 100%;
         align-items: center;
         margin-right: 13%;
     }
@@ -67,10 +68,10 @@
     }
 
     .tabs__card__list .tab__button h3 {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .tabs__card__list .tab__button p {
-        font-size: 0.3rem;
+        font-size: 0.4rem;
     }
 }
