@@ -128,6 +128,7 @@ q:after {
 
     .stats__card__list {
         width: 100%;
+         justify-content: space-around;
     }
 
     .stats__card__big__button {

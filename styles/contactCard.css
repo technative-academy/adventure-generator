@@ -62,14 +62,14 @@
 }
 
 .map__container {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: center;
-    
+    padding-left: 3rem;
 }
 
 .contact__card__map {
-    width: 20rem;
+    width: 30rem;
     display: block;
 }
 
@@ -85,10 +85,18 @@
 
     .map__container {
         margin-top: 3rem;
-        margin-left: 45%;
+        margin-left: 70%;
     }
 
     .contact__card__form__content {
         width: 80%;
+    }
+
+    .contact__card__map__caption {
+        margin-bottom: 0;
+    }
+
+    .contact__card__address__content {
+        margin-right: 60%;
     }
 }
