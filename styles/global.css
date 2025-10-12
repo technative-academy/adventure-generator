@@ -68,18 +68,18 @@ h2 {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    width: 40%;
+    width: 100%;
     height: fit-content;
-    margin: 0 auto;
+    margin-top: 4rem;
     align-self: center;
-    margin-bottom: 2rem;
     order: 9999;
+    transition: all 0.5s;
+    font-size: large;
 }
 
 .show__more__button:hover {
     background-color: var(--primary-tint-c);
     color: var(--primary-c);
-    transform: scale(1.1);
 }
 
 .hidden__content {

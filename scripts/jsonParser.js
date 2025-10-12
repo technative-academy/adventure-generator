@@ -1,4 +1,5 @@
 import hideContent from './hideContent.js'
+import drawRating from './rating.js'
 
 class JsonParser {
     constructor() {
@@ -25,6 +26,7 @@ class JsonParser {
                     const prStrongPrice = document.createElement('strong')
                     const prPrice = document.createElement('p')
                     const prDiv = document.createElement('div')
+                    const prRating = document.createElement('div')
 
                     prImage.classList.add('products__card__result__image')
                     prTitle.classList.add('products__card__result__heading')
@@ -41,10 +43,12 @@ class JsonParser {
 
                     prDescription.appendChild(prEmDescription)
                     prPrice.appendChild(prStrongPrice)
+                    drawRating(product.rating, prRating)
 
                     prDiv.appendChild(prImage)
                     prDiv.appendChild(prTitle)
                     prDiv.appendChild(prDescription)
+                    prDiv.appendChild(prRating)
                     prDiv.appendChild(prPrice)
 
                     this.productsContainer.appendChild(prDiv)
