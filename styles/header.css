@@ -55,6 +55,10 @@
     text-decoration: none;
 }
 
+.nav .selected__button:hover {
+    text-decoration: none;
+}
+
 .header__footnote {
     color: var(--text-body-c);
     margin-bottom: 50px;
