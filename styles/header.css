@@ -16,8 +16,14 @@
 }
 
 .header__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem;
+    font-size: 3rem;
+    width: 60%;
+    height: 8rem;
 }
 
 .header__nav {
@@ -62,6 +68,9 @@
 .header__footnote {
     color: var(--text-body-c);
     margin-bottom: 50px;
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
 }
 
 .header__image {
@@ -79,6 +88,13 @@
         border-bottom-right-radius: 0;
     }
 
+    .header__heading {
+        width: 80%;
+        font-size: 1.7rem;
+        margin: 2rem 0rem 1rem 0rem;
+        height: fit-content;
+    }
+
     .header__img {
         width: 100%;
     }
@@ -92,6 +108,10 @@
 
     .header__top img {
         margin-left: 1rem;
+    }
+
+    .header__footnote {
+        font-size: 0.7rem;
     }
 }
 

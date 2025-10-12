@@ -62,15 +62,15 @@
 }
 
 .map__container {
-    width: 45%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding-left: 3rem;
+    display: flex;
 }
 
 .contact__card__map {
-    width: 30rem;
-    display: block;
+    width: 100%; 
+    height: 25rem;
 }
 
 @media screen and (max-width: 780px) {
@@ -84,12 +84,27 @@
     }
 
     .map__container {
+        display: flex;
+        justify-content: center;
         margin-top: 3rem;
-        margin-left: 70%;
+        width: 100%;
+        margin-left: 90%;
+    }
+
+    .contact__card__map {
+        height: 20rem;
+        width: 18rem;
+        
     }
 
     .contact__card__form__content {
         width: 80%;
+        margin-right: 10%;
+    }
+
+    .contact__card__form__button:hover {
+        background-color: var(--primary-c);
+        color: var(--primary-tint-c);
     }
 
     .contact__card__map__caption {

@@ -42,18 +42,18 @@ class Tabs {
         const image = document.querySelector('.header__image')
 
         if (tab == 'home') {
-            heading.textContent = 'Something profound about our company'
-            footnote.textContent = "Tagline eg. 'We do talking, you do walking'"
+            heading.textContent = 'Book with us and embark on the adventure of your life'
+            footnote.textContent = "Or... take a hike!"
             image.style.display = 'initial'
             document.querySelector('.tabs__card .tab__button').click()
             document.querySelector('.stats__card .tab__button').click()
         } else if (tab == 'products') {
             heading.textContent = 'Our products'
-            footnote.textContent = 'experience is not free'
+            footnote.textContent = 'Adventure has never happened with a closed wallet'
             image.style.display = 'none'
         } else if (tab == 'about') {
             heading.textContent = 'About us'
-            footnote.textContent = "that's why we are important"
+            footnote.textContent = "It's not all about you"
             image.style.display = 'none'
         }
     }

@@ -5,6 +5,7 @@
 .products__card__heading {
     width: 100%;
     text-align: center;
+    
 }
 
 .products__card__form {
@@ -77,6 +78,11 @@
 }
 
 @media screen and (max-width: 780px) {
+    .products__card__heading {
+        font-size: 1.2rem;
+    }
+
+
     .products__card__form__input {
         width: 80%;
     }
@@ -85,3 +91,5 @@
         width: 80%;
     }
 }
+
+
