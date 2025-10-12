@@ -83,10 +83,11 @@ q:after {
     margin: 3rem auto;
     display: block;
     width: 80%;
+    transition: all 0.5s;
 }
 
 .stats__card__big__button:hover {
-    background-color: rgb(192, 192, 192);
+    background-color: var(--secondary-tint-c);
     color: var(--primary-c);
     transform: scale(1.05);
 }

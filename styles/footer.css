@@ -20,7 +20,7 @@
     padding-right: 4rem;
 }
 
-.footer button {
+.footer__button {
     background: none;
     border: none;
     color: white;
@@ -29,7 +29,7 @@
     padding: 0.2rem 0;
 }
 
-.footer button:hover {
+.footer__button:hover {
     text-decoration: underline;
 }
 
@@ -60,7 +60,7 @@
         padding: 0 1rem;
     }
 
-    .footer ul li button {
+    .footer__button {
         font-size: 0.7rem !important;
     }
 }
