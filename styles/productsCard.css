@@ -57,6 +57,7 @@
 
 .products__card__result:hover {
     transform: scale(110%);
+    cursor: pointer;
 }
 
 .products__card__result__image {
