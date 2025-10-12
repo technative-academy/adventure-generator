@@ -32,8 +32,7 @@
 
     .nav.active {
         right: 0;
-        margin-top: 2.5rem;
-        top: 3rem;
+        top: 6rem;
     }
 
     .nav {
@@ -50,6 +49,10 @@
 
 @media screen and (max-width: 500px) {
     .hamburger {
-        margin-top: .3rem;
+        margin-top: 0.3rem;
+    }
+
+    .nav.active {
+        top: 4.5rem;
     }
 }
