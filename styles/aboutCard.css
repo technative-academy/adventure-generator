@@ -42,6 +42,8 @@
 
     .about__card__text__content {
         width: 80%;
+        margin-right: 0;
+        margin-bottom: 2rem;
     }
     .about__card__text__content p {
         font-size: 1rem;

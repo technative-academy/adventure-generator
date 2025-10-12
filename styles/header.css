@@ -42,6 +42,7 @@
     margin: 0 3rem;
     font-size: 1.3rem;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .nav .tab__button:hover {
@@ -51,6 +52,7 @@
 
 .nav .selected__button {
     border-bottom: 0.4rem solid var(--primary-c);
+    text-decoration: none;
 }
 
 .header__footnote {
