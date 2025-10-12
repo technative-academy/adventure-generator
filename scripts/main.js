@@ -1,7 +1,7 @@
 import Tabs from './allTabs.js'
-//import cardTabs from './tabsCard.js'
+import burgerMenu from './burgerMenu.js'
 import JsonParser from './jsonParser.js'
-//import statsTabs from './statsCard.js'
+
 
 const tabs = new Tabs('.nav', '.main')
 const cardTabs = new Tabs('.tabs__card__list', '.tabs__card')
@@ -17,5 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.stats__card .tab__button').click()
 })
 
-
+burgerMenu();
 

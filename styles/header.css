@@ -32,7 +32,6 @@
     list-style: none;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .nav .tab__button {
@@ -43,6 +42,7 @@
     margin: 0 3rem;
     font-size: 1.3rem;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .nav .tab__button:hover {
@@ -50,8 +50,13 @@
     text-decoration: underline;
 }
 
- .nav .selected__button {
+.nav .selected__button {
     border-bottom: 0.4rem solid var(--primary-c);
+    text-decoration: none;
+}
+
+.nav .selected__button:hover {
+    text-decoration: none;
 }
 
 .header__footnote {
@@ -60,7 +65,6 @@
 }
 
 .header__image {
-    
     width: 80%;
     height: auto;
     z-index: 1000;
@@ -68,12 +72,32 @@
     margin-top: 2rem;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width: 780px) {
+    .header {
+        background-color: transparent;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     .header__img {
         width: 100%;
     }
+    .header__top {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--primary-tint-c);
+    }
 
-    .nav .tab__button {
-        font-size: 1rem;
+    .header__top img {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__top img {
+        margin-left: 1rem;
+        width: 12rem;
     }
 }
