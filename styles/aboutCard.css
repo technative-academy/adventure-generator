@@ -36,6 +36,10 @@
         padding: 2rem;
     }
 
+    .about__card__heading {
+        font-size: 1.2rem;
+    }
+
     .about__card__visual__content {
         width: 100%;
     }

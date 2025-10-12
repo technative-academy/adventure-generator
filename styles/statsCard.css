@@ -57,11 +57,10 @@ q:after {
     margin: 0 1rem;
     background-color: transparent;
     border: none;
-    
 }
 
 .stats__card .tab__button:hover {
-    background-color:  rgb(192, 192, 192);
+    background-color: rgb(192, 192, 192);
     cursor: pointer;
 }
 
@@ -87,13 +86,15 @@ q:after {
 }
 
 .stats__card__big__button:hover {
-    background-color: rgb(192, 192, 192);;
+    background-color: rgb(192, 192, 192);
     color: var(--primary-c);
     transform: scale(1.05);
 }
 
 @media screen and (max-width: 780px) {
-    
+    .stats__card__heading {
+        font-size: 1.2rem;
+    }
 
     .stats__card .tab__button {
         width: 20%;
@@ -146,4 +147,4 @@ q:after {
         background-color: var(--primary-c);
         color: var(--primary-tint-c);
     }
-}   
+}
