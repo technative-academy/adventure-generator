@@ -9,7 +9,7 @@ class JsonParser {
     }
 
     getProducts(searchQuery) {
-        fetch('../data/products.json')
+        fetch('data/products.json')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('HTTP error ' + response.status)
