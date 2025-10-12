@@ -105,6 +105,10 @@ q:after {
         align-items: center;
     }
 
+    .stats__card .tab__button:hover {
+        background-color: transparent;
+    }
+
     .stats__card .selected__button {
         color: black;
         border-top: 0.3rem solid var(--primary-c);
@@ -137,4 +141,9 @@ q:after {
         font-size: 1rem;
         border-radius: 0;
     }
-}
+
+    .stats__card__big__button:hover {
+        background-color: var(--primary-c);
+        color: var(--primary-tint-c);
+    }
+}   

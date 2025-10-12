@@ -63,6 +63,10 @@
         margin-right: 13%;
     }
 
+    .tabs__card .tab__button:hover {
+        background-color: transparent;
+    }
+
     .tabs__card .selected__button {
         border-left: none;
         border-bottom: 0.3rem solid var(--primary-c);

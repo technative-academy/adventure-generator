@@ -17,7 +17,8 @@
 
 .header__heading {
     text-align: center;
-    margin: 2rem;
+    margin: 2rem 8rem;
+    font-size: 3rem;
 }
 
 .nav {
@@ -77,6 +78,11 @@
         background-color: transparent;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
+    }
+
+    .header__heading {
+        font-size: 2rem;
+        margin: 1rem 3rem;
     }
 
     .header__img {

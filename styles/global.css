@@ -87,6 +87,14 @@ h2 {
     display: none;
 }
 
+@media screen and (max-width: 780px) {
+    .show__more__button:hover {
+        background-color: var(--primary-c);
+        color: var(--primary-tint-c);
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     h2 {
         font-size: 1.5rem;
