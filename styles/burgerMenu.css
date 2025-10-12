@@ -47,3 +47,9 @@
         height: fit-content;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .hamburger {
+        margin-top: .3rem;
+    }
+}
