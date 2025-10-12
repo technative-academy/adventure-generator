@@ -17,8 +17,9 @@
 
 .header__heading {
     text-align: center;
-    margin: 2rem 8rem;
+    margin: 2rem;
     font-size: 3rem;
+    width: 60%;
 }
 
 .nav {
