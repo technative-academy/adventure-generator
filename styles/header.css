@@ -15,6 +15,11 @@
     position: relative;
 }
 
+.header__heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -30,10 +35,9 @@
     
 }
 
-.nav__list__button {
+.nav .tab__button {
     color: var(--text-body-c);
     background-color: rgba(255, 255, 255, 0.01);
-    border-radius: 0.5rem;;
     border: none;
     cursor: pointer;
     margin: 0 3rem;
@@ -41,9 +45,13 @@
     padding: 0.5rem;
 }
 
-.nav__list__button:hover {
+.nav .tab__button:hover {
     color: var(--text-headings-c);
     text-decoration: underline;
+}
+
+ .nav .selected__button {
+    border-bottom: 0.4rem solid var(--primary-c);
 }
 
 .header__footnote {
@@ -52,10 +60,20 @@
 }
 
 .header__image {
-    display: initial;
-    width: 60%;
+    
+    width: 80%;
     height: auto;
     z-index: 1000;
     border-radius: 20px;
     margin-top: 2rem;
+}
+
+@media screen and (max-width:780px) {
+    .header__img {
+        width: 100%;
+    }
+
+    .nav .tab__button {
+        font-size: 1rem;
+    }
 }

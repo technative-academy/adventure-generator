@@ -17,13 +17,13 @@
         <header class="header">
             <img src="assets/adventureGeneratorLogo.svg" />
             <nav class="nav">
-                <button data-tab="home" class="nav__list__button">Home</button>
-                <button data-tab="products" class="nav__list__button">
+                <button data-tab="home" class="tab__button initial__tab">
+                    Home
+                </button>
+                <button data-tab="products" class="tab__button">
                     Products
                 </button>
-                <button data-tab="about" class="nav__list__button">
-                    About
-                </button>
+                <button data-tab="about" class="tab__button">About</button>
             </nav>
             <h1 class="header__heading">Something Profound etc</h1>
             <p class="header__footnote">blah blah blah</p>
@@ -59,59 +59,49 @@
                     </div>
                 </section>
                 <section class="card tabs__card tinted__bg">
+                    <div class="tabs__card__image__container">
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/backpacker.jpg"
                         data-tab="hiking"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/kayak2.jpg"
                         data-tab="floating"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/biplane.jpg"
                         data-tab="flying"
                     />
                     <img
-                        class="tabs__card__img"
+                        class="tab selected__tab"
                         src="./assets/gitpalm.jpg"
                         data-tab="git"
                     />
+                    </div>
                     <ul class="tabs__card__list">
                         <li>
-                            <button
-                                data-for-tab="hiking"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="hiking" class="tab__button">
                                 <h3>Hiking Adventures</h3>
                                 <p>first tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="floating"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="floating" class="tab__button">
                                 <h3>Floating Adventures</h3>
                                 <p>Second tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="flying"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="flying" class="tab__button">
                                 <h3>Flying Adventures</h3>
                                 <p>Third tab subtitle</p>
                             </button>
                         </li>
                         <li>
-                            <button
-                                data-for-tab="git"
-                                class="tabs__card__list__button"
-                            >
+                            <button data-tab="git" class="tab__button">
                                 <h3>Git Adventures</h3>
                                 <p>Fourth tab subtitle</p>
                             </button>
@@ -128,7 +118,7 @@
                         </div>
                         <div class="facts__card__item">
                             <img src="./assets/graph2.jpg" />
-                            <h4>New friends/time</h4>
+                            <h4>Friends/time</h4>
                             <p>some won't be annoying</p>
                         </div>
                         <div class="facts__card__item">
@@ -175,46 +165,64 @@
                         What people think about us
                     </h2>
                     <div class="stats__card__quote__container">
-                        <q class="stats__card__quote" data-tab="bear"
+                        <q
+                            class="tab selected__tab .stats__card__quote"
+                            data-tab="bear"
                             >"Best adventure I've ever had. Better than that
                             time I slept in a camel"</q
                         >
-                        <q class="stats__card__quote" data-tab="jane"
+                        <q
+                            class="tab selected__tab .stats__card__quote"
+                            data-tab="jane"
                             >"About as much fun as you can have on a hike.
                             Walked a lot, didn't get eaten by a mountain
                             lion."</q
                         >
-                        <q class="stats__card__quote" data-tab="john"
+                        <q
+                            class="tab selected__tab .stats__card__quote"
+                            data-tab="john"
                             >"Balloons are just the best way to travel, except
                             the lack of directional control and fear of instant
                             death."</q
                         >
                     </div>
-                    <div class="stats__card__tabs">
-                        <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="bear"
-                        >
-                            <h3>Bear Grylls</h3>
-                            <p>Famous Adventurer</p>
+                    <div class="stats__card__list">
+                        <button class="tab__button" data-tab="bear">
+                            <img
+                                src="./assets/bear.jpg"
+                                alt="Bear Grylls"
+                                class="button__portrait"
+                            />
+                            <div class="stats__button__text">
+                                <h3>Bear Grylls</h3>
+                                <p>Adventurer</p>
+                            </div>
                         </button>
-                        <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="jane"
-                        >
-                            <h3>Jane Doe</h3>
-                            <p>Professional Hiker</p>
+                        <button class="tab__button" data-tab="jane">
+                            <img
+                                src="./assets/hikingportrait.jpg"
+                                alt="Jane Doe"
+                                class="button__portrait"
+                            />
+                            <div class="stats__button__text">
+                                <h3>Jane Doe</h3>
+                                <p>Professional Hiker</p>
+                            </div>
                         </button>
-                        <button
-                            class="stats__card__tabs__button"
-                            data-for-tab="john"
-                        >
-                            <h3>John Smith</h3>
-                            <p>Hot air enthusiast</p>
+                        <button class="tab__button" data-tab="john">
+                            <img
+                                src="./assets/balloonist.jpg"
+                                alt="balloonist"
+                                class="button__portrait"
+                            />
+                            <div class="stats__button__text">
+                                <h3>John Smith</h3>
+                                <p>Hot air enthusiast</p>
+                            </div>
                         </button>
                     </div>
                     <button class="stats__card__big__button">
-                        84.7% of stats are important
+                        84.7% of statistics are made up
                     </button>
                 </section>
             </div>
@@ -242,72 +250,6 @@
                         <em>some products found</em>
                     </p>
                     <div class="products__card__container">
-                        <div class="products__card__result">
-                            <img
-                                class="products__card__result__image"
-                                src="./assets/balloon.jpg"
-                            />
-                            <h3 class="products__card__result__heading">
-                                Product Title
-                            </h3>
-                            <p class="products__card__result__description">
-                                <em
-                                    >Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Quasi esse fuga
-                                    aperiam</em
-                                >
-                            </p>
-                            <div class="products__card__result__rating">
-                                <!-- pictures of stars will be inserted here using JS -->
-                            </div>
-                            <p class="products__card__result__cost">
-                                <strong>6.99£</strong>
-                            </p>
-                        </div>
-                        <div class="products__card__result">
-                            <img
-                                class="products__card__result__image"
-                                src="./assets/balloon.jpg"
-                            />
-                            <h3 class="products__card__result__heading">
-                                Product Title
-                            </h3>
-                            <p class="products__card__result__description">
-                                <em
-                                    >Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Quasi esse fuga
-                                    aperiam</em
-                                >
-                            </p>
-                            <div class="products__card__result__rating">
-                                <!-- pictures of stars will be inserted here using JS -->
-                            </div>
-                            <p class="products__card__result__cost">
-                                <strong>6.99£</strong>
-                            </p>
-                        </div>
-                        <div class="products__card__result">
-                            <img
-                                class="products__card__result__image"
-                                src="./assets/balloon.jpg"
-                            />
-                            <h3 class="products__card__result__heading">
-                                Product Title
-                            </h3>
-                            <p class="products__card__result__description">
-                                <em
-                                    >Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Quasi esse fuga
-                                    aperiam</em
-                                >
-                            </p>
-                            <div class="products__card__result__rating">
-                                <!-- pictures of stars will be inserted here using JS -->
-                            </div>
-                            <p class="products__card__result__cost">
-                                <strong>6.99£</strong>
-                            </p>
-                        </div>
                         <div class="products__card__result">
                             <img
                                 class="products__card__result__image"
@@ -370,10 +312,18 @@
                 </section>
                 <section class="card contact__card tinted__bg">
                     <div class="contact__card__address__content">
-                        <img
-                            class="contact__card__map"
-                            src="assets/map_placeholder.png"
-                        />
+                        <div class="map__container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16956.453446008298!2d-0.13624137130530334!3d50.82019969488829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1760172075901!5m2!1sen!2suk"
+                                width="800"
+                                height="350"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="contact__card__map"
+                            ></iframe>
+                        </div>
                         <h4 class="contact__card__map__caption">
                             Our address:
                         </h4>

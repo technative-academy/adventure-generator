@@ -1,9 +1,8 @@
-/* class Tabs {
-    constructor(selector, tabSelecteor) {
+class Tabs {
+    constructor(selector, tabSelector) {
         this.buttonsContainer = document.querySelector(selector)
-        this.tabButtons =
-            this.buttonsContainer.querySelectorAll('.nav__list__button')
-        this.tabsContainer = document.querySelector(tabSelecteor)
+        this.tabButtons = this.buttonsContainer.querySelectorAll('.tab__button')
+        this.tabsContainer = document.querySelector(tabSelector)
         this.tabContents = this.tabsContainer.querySelectorAll('.tab')
 
         this.tabButtons.forEach((tabButton) => {
@@ -46,11 +45,13 @@
             heading.textContent = 'Something profound about our company'
             footnote.textContent = "Tagline eg. 'We do talking, you do walking'"
             image.style.display = 'initial'
+            document.querySelector('.tabs__card .tab__button').click()
+            document.querySelector('.stats__card .tab__button').click()
         } else if (tab == 'products') {
             heading.textContent = 'Our products'
             footnote.textContent = 'experience is not free'
             image.style.display = 'none'
-        } else {
+        } else if (tab == 'about') {
             heading.textContent = 'About us'
             footnote.textContent = "that's why we are important"
             image.style.display = 'none'

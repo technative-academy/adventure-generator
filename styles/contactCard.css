@@ -12,10 +12,10 @@
 .contact__card__address__content {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: start;
     margin-right: 10%;
-    max-width: 35%;
+    width: 35%;
 }
 
 .contact__card__form__content {
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    max-width: 35%;
+    width: 35%;
 }
 
 .contact__card__form {
@@ -55,6 +55,48 @@
     width: fit-content;
 }
 
+.contact__card__form__button:hover {
+    background-color: rgb(192, 192, 192);;
+    color: var(--primary-c);
+    transform: scale(1.05);
+}
+
+.map__container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
 .contact__card__map {
-    width: 100%;
+    width: 30rem;
+    display: block;
+}
+
+@media screen and (max-width: 780px) {
+    .contact__card {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact__card__heading {
+        font-size: 1.5rem;
+    }
+
+    .map__container {
+        margin-top: 3rem;
+        margin-left: 70%;
+    }
+
+    .contact__card__form__content {
+        width: 80%;
+    }
+
+    .contact__card__map__caption {
+        margin-bottom: 0;
+    }
+
+    .contact__card__address__content {
+        margin-right: 60%;
+    }
 }

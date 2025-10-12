@@ -14,7 +14,7 @@
     flex-direction: column;
     margin-right: 10%;
     align-items: start;
-    max-width: 35%;
+    width: 35%;
 }
 
 .about__card__visual__content {
@@ -22,10 +22,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 35%;
+    width: 35%;
 }
 
 .about__card__image {
     width: 100%;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .about__card {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .about__card__visual__content {
+        width: 100%;
+    }
+
+    .about__card__text__content {
+        width: 80%;
+    }
+    .about__card__text__content p {
+        font-size: 1rem;
+    }
 }

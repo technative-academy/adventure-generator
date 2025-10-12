@@ -7,58 +7,70 @@
     width: 100%;
     text-align: center;
     margin-top: 3rem;
-}
-
-.stats__card__quote {
-    text-align: center;
-    font-style: italic;
-    margin: 2rem auto;
-    width: 60%;
-    display: block;
-    font-size: 2rem;
-}
-
-.stats__card__tabs {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3rem;
-    width: 60%;
-    margin: 3rem auto;
+    box-sizing: border-box;
 }
 
 .stats__card__quote__container {
-    margin-top: 3rem;
-    height: 10rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin: 4rem auto;
+    height: 10rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 60%;
+    box-sizing: border-box;
 }
-.stats__card__quote {
+
+q:before,
+q:after {
+    content: '';
+}
+
+.tab .stats__card__quote {
     display: none;
 }
 
-.stats__card__quote--active {
-    display: block;
+.stats__card__list {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
 }
 
+.button__portrait {
+    width: 3rem;
+    border-radius: 1.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
 
-
-.stats__card__tabs__button {
-    width: 50%;
+.stats__card .tab__button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
     padding: 0;
+    margin: 0 1rem;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid var(--primary-c);
+    
 }
 
-.stats__card__tabs__button:hover {
-    background-color: var(--primary-c);
+.stats__card .tab__button:hover {
+    background-color:  rgb(192, 192, 192);
     cursor: pointer;
 }
 
-.stats__card__tabs__button--active {
-    margin-bottom: 0;
-    border-top: 0.5rem solid var(--primary-c);
+.stats__card .selected__button {
+    color: black;
+    border-top: 0.4rem solid var(--primary-c);
     border-bottom: none;
-    background-color: none;
+    box-sizing: border-box;
+    width: 70%;
 }
 
 .stats__card__big__button {
@@ -66,10 +78,63 @@
     color: var(--primary-tint-c);
     border: none;
     border-radius: 5px;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     cursor: pointer;
     font-size: 1.5rem;
-    margin: 2rem auto;
+    margin: 3rem auto;
     display: block;
-    width: 60%;
+    width: 80%;
+}
+
+.stats__card__big__button:hover {
+    background-color: rgb(192, 192, 192);;
+    color: var(--primary-c);
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 780px) {
+    
+
+    .stats__card .tab__button {
+        width: 20%;
+        padding: 0;
+        margin: 0 2%;
+        background-color: transparent;
+        border: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats__card .selected__button {
+        color: black;
+        border-top: 0.3rem solid var(--primary-c);
+        box-sizing: border-box;
+        margin: 0 2%;
+        width: 20%;
+    }
+
+    .stats__button__text h3 {
+        font-size: 0.7rem;
+    }
+
+    .stats__button__text p {
+        font-size: 0.5rem;
+    }
+
+    .stats__card__quote__container {
+        font-size: 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .stats__card__list {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .stats__card__big__button {
+        width: 100%;
+        padding: 2rem;
+        font-size: 1rem;
+        border-radius: 0;
+    }
 }

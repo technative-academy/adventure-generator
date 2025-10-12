@@ -1,4 +1,4 @@
-function cardTabs() {
+/* function cardTabs() {
     document.querySelectorAll('.tabs__card__list__button').forEach((button) => {
         button.addEventListener('click', () => {
             const sideBar = document.querySelector('.tabs__card__list')

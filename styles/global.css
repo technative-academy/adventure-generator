@@ -58,21 +58,44 @@ h2 {
 .selected__tab {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
 }
+
 .show__more__button {
     background-color: var(--primary-c);
     color: var(--primary-tint-c);
     padding: 10px;
     border: none;
     border-radius: 5px;
-    width: fit-content;
-    height: min-content;
-    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    margin-top: 4rem;
     align-self: center;
-    flex-basis: 100%;
     order: 9999;
+    transition: all 0.5s;
+    font-size: large;
+}
+
+.show__more__button:hover {
+    background-color: var(--primary-tint-c);
+    color: var(--primary-c);
 }
 
 .hidden__content {
     display: none;
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
 }
