@@ -54,14 +54,13 @@
 
     .selected__tab .tabs__card__image__container {
         width: 95%;
-        max-height: 11.5rem;
+        max-height: 18rem;
     }
 
     .tabs__card__list {
         width: 100%;
         align-items: center;
         margin-right: 13%;
-       
     }
 
     .tabs__card .selected__button {
@@ -70,10 +69,17 @@
     }
 
     .tabs__card__list .tab__button h3 {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .tabs__card__list .tab__button p {
-        font-size: 0.4rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+     .selected__tab .tabs__card__image__container {
+        width: 95%;
+        max-height: 11.5rem;
     }
 }
