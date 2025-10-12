@@ -45,6 +45,10 @@
         background-color: var(--primary-tint-c);
         height: fit-content;
     }
+
+    .nav .tab__button {
+        width: 7rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
