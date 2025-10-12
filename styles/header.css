@@ -15,8 +15,6 @@
     position: relative;
 }
 
-
-
 .header__heading {
     text-align: center;
     margin-top: 2rem;
@@ -71,6 +69,8 @@
 @media screen and (max-width: 780px) {
     .header {
         background-color: transparent;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     .header__img {
@@ -82,5 +82,9 @@
         flex-direction: row;
         justify-content: space-between;
         background-color: var(--primary-tint-c);
+    }
+
+    .header__top img {
+        margin-left: 1rem;
     }
 }
