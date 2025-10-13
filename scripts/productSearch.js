@@ -10,6 +10,7 @@ function productSearch(e) {
     const productsContainer = document.querySelector(
         '.products__card__container'
     )
+    document.querySelector('.products__card__form__input').value = "";
     const resultsNumber = document.querySelector('.products__card__results__number')
     productsContainer.innerHTML = ''
     console.log(term)
@@ -27,14 +28,15 @@ function productSearch(e) {
                     product.description.toLowerCase().includes(term)
             )
             return results
+            
         }) 
         .then((result) => {
             if(result.length === 0) {
-                resultsNumber.innerHTML = 'There are no results for your search'
+                resultsNumber.innerHTML = `There are no results for ${term}`
             } if(result.length === 1) {
-                resultsNumber.innerHTML = `There is 1 result for your search`
+                resultsNumber.innerHTML = `There is 1 result for ${term}`
             } else {
-                resultsNumber.innerHTML = `There are ${result.length} results for your search` 
+                resultsNumber.innerHTML = `There are ${result.length} results for ${term}` 
             }
             result.forEach((result) => {
                 const prImage = document.createElement('img')
@@ -79,6 +81,6 @@ function productSearch(e) {
             console.error(error)
         })
          
-}
+} 
 
 export default productSearch

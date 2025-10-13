@@ -6,7 +6,6 @@
 .products__card__heading {
     width: 100%;
     text-align: center;
-    
 }
 
 .products__card__form {
@@ -84,7 +83,6 @@
         font-size: 1.2rem;
     }
 
-
     .products__card__form__input {
         width: 80%;
     }
@@ -94,8 +92,12 @@
     }
 
     .products__card__result:hover {
-    transform: none;
-}
-}
+        transform: none;
+    }
 
-
+    .products__card__form__button:hover {
+        transform: none;
+        background-color: var(--primary-c);
+        color: var(--primary-tint-c);
+    }
+}
