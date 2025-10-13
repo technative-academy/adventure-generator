@@ -6,7 +6,7 @@ searchButton.addEventListener('click', productSearch)
 
 function productSearch(e) {
     e.preventDefault()
-    const term = document.querySelector('.products__card__form__input').value
+    const term = document.querySelector('.products__card__form__input').value.toLowerCase()
     const productsContainer = document.querySelector(
         '.products__card__container'
     )
