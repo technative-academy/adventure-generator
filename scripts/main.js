@@ -1,8 +1,8 @@
-import Tabs from './allTabs.js';
-import burgerMenu from './burgerMenu.js';
-import JsonParser from './jsonParser.js';
-import footerMenu from './footerMenu.js';
-import productSearch from './productSearch.js';
+import Tabs from './allTabs.js'
+import burgerMenu from './burgerMenu.js'
+import JsonParser from './jsonParser.js'
+import footerMenu from './footerMenu.js'
+import productSearch from './productSearch.js'
 
 const tabs = new Tabs('.header__nav', '.main')
 const cardTabs = new Tabs('.tabs__card__list', '.tabs__card')
@@ -11,7 +11,13 @@ const footerTabs = new Tabs('.footer__list__left', '.main')
 
 const jsonParser = new JsonParser()
 
-jsonParser.getProducts('')
+async function loadProducts() {
+    const jsonData = await jsonParser.getProducts()
+    console.log(jsonData)
+    jsonParser.createProductsHtml(jsonData)
+}
+
+loadProducts()
 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.header__nav .tab__button').click()
@@ -19,5 +25,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.stats__card .tab__button').click()
 })
 
-burgerMenu();
-footerMenu();
+burgerMenu()
+footerMenu()
