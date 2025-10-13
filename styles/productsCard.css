@@ -90,6 +90,10 @@
     .products__card__result {
         width: 80%;
     }
+
+    .products__card__result:hover {
+    transform: none;
+}
 }
 
 

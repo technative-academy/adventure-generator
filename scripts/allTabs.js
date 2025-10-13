@@ -55,7 +55,7 @@ class Tabs {
             heading.textContent = 'About us'
             footnote.textContent = "It's not all about you"
             image.style.display = 'none'
-        }
+        } 
     }
 }
 

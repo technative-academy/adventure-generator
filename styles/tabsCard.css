@@ -84,6 +84,6 @@
 @media screen and (max-width: 500px) {
      .selected__tab .tabs__card__image__container {
         width: 95%;
-        max-height: 12rem;
+        height: 12rem;
     }
 }
