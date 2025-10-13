@@ -13,7 +13,7 @@ function productSearch(e) {
     const resultsNumber = document.querySelector('.products__card__results__number')
     productsContainer.innerHTML = ''
     console.log(term)
-    fetch('data/products.json')
+    fetch('./data/products.json')
         .then((response) => {
             if (!response.ok) {
                 throw new Error('HTTP error ' + response.status)
