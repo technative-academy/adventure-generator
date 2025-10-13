@@ -1,0 +1,13 @@
+.footer__list__left__menu.active {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transform: 3s;
+}
+
+.footer__list__right__menu.active {
+    display: flex;
+    flex-direction: column;
+    transform: 3s;
+}
+

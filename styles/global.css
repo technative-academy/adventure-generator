@@ -10,6 +10,7 @@
 @import './card.css';
 @import './references.css';
 @import './burgerMenu.css';
+@import './footerMenu.css';
 
 body {
     margin: 0;

@@ -34,7 +34,7 @@
             <p class="header__footnote">blah blah blah</p>
         </header>
         <main class="main">
-            <img class="header__image" src="./assets/extreme_hiker.jpg" />
+            <img class="header__image" src="./assets/headerimage.jpg" />
             <div data-tab="home" class="tab selected__tab">
                 <section class="references white__bg">
                     <p class="references__text">
@@ -418,23 +418,55 @@
         </main>
         <footer class="footer">
             <div class="footer__top">
-                <ul class="footer__list__left">
-                    <li><button class="footer__button">Company</button></li>
-                    <li><button class="footer__button">About Us</button></li>
-                    <li><button class="footer__button">Contact Us</button></li>
-                </ul>
-                <ul class="footer__list__right">
-                    <li><button class="footer__button">Legal</button></li>
-                    <li>
-                        <button class="footer__button">Cookies Policy</button>
-                    </li>
-                    <li>
-                        <button class="footer__button">Privacy Policy</button>
-                    </li>
-                    <li>
-                        <button class="footer__button">Terms of Service</button>
-                    </li>
-                </ul>
+                <div class="footer__list__left">
+                    <button class="footer__list__left__header">
+                        <strong>Company</strong>
+                        <img src="./assets/downarrow.png" class="footer__list__icon" />
+                    </button>
+
+                    <ul class="footer__list__left__menu">
+                        <li>
+                            <button
+                                class="footer__button__left tab__button"
+                                data-tab="about"
+                            >
+                                About Us
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                class="footer__button__left tab__button"
+                                data-tab="about"
+                            >
+                                Contact Us
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__list__right">
+                    <button class="footer__list__right__header">
+                        <strong>Legal</strong>
+                        <img src="./assets/downarrow.png" class="footer__list__icon" />
+                    </button>
+
+                    <ul class="footer__list__right__menu">
+                        <li>
+                            <button class="footer__button__right">
+                                Cookies Policy
+                            </button>
+                        </li>
+                        <li>
+                            <button class="footer__button__right">
+                                Privacy Policy
+                            </button>
+                        </li>
+                        <li>
+                            <button class="footer__button__right">
+                                Terms of Service
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer__bottom">
                 <p>© 2024 All rights reserved.</p>

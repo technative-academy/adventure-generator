@@ -142,6 +142,8 @@ q:after {
         padding: 2rem;
         font-size: 1rem;
         border-radius: 0;
+        transform: none;
+        margin-bottom: 0;
     }
 
     .stats__card__big__button:hover {

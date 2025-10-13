@@ -20,7 +20,31 @@
     padding-right: 4rem;
 }
 
-.footer__button {
+.footer__list__left__header {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__list__right__header {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__list__left .selected__button {
+    background-color: var(--footer-c);
+}
+
+.footer__button__left {
     background: none;
     border: none;
     color: white;
@@ -28,8 +52,19 @@
     cursor: pointer;
     padding: 0.2rem 0;
 }
+.footer__button__right {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.2rem 0;
+}
+.footer__button__left:hover {
+    text-decoration: underline;
+}
 
-.footer__button:hover {
+.footer__button__right:hover {
     text-decoration: underline;
 }
 
@@ -40,6 +75,7 @@
 
 .footer p {
     color: white;
+    padding-bottom: 10px;
 }
 
 .list__socials {
@@ -56,16 +92,62 @@
     transform: scale(1.2);
 }
 
+.footer__list__icon {
+    display: none;
+}
+
 @media screen and (max-width: 780px) {
     .footer__top {
-        padding: 0 1rem;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .footer__bottom {
         padding: 0 1rem;
     }
 
-    .footer__button {
+    .footer__list__left {
+        width: 90%;
+        margin-left: 15%;
+    }
+
+    .footer__list__right {
+        width: 90%;
+        margin-left: 15%;
+    }
+
+    .footer__list__right__header {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .footer__list__left__header {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .footer__list__right__menu {
         font-size: 0.7rem !important;
+        display: none;
+    }
+
+    .footer__list__left__menu {
+        font-size: 0.7rem !important;
+        display: none;
+    }
+
+    .footer__list__icon {
+        display: block;
+        width: 20px;
+    }
+
+    .footer p {
+        margin-left: 15%;
+    }
+
+    .list__socials {
+        display: none;
     }
 }
