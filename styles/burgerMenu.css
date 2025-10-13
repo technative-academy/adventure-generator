@@ -36,7 +36,7 @@
     }
 
     .header__nav {
-        position: absolute;
+        position: fixed;
         right: -100%;
         flex-direction: column;
         width: 8rem;
@@ -44,6 +44,7 @@
         transition: 0.3s;
         background-color: var(--primary-tint-c);
         height: fit-content;
+        z-index: 100;
     }
 
     .nav .tab__button {

@@ -76,7 +76,7 @@
 .header__image {
     width: 80%;
     height: auto;
-    z-index: 1000;
+    z-index: 10;
     border-radius: 20px;
     margin-top: 2rem;
 }
@@ -91,7 +91,7 @@
     .header__heading {
         width: 80%;
         font-size: 1.7rem;
-        margin: 2rem 0rem 1rem 0rem;
+        margin: 8rem 0rem 1rem 0rem;
         height: fit-content;
     }
 
@@ -104,6 +104,9 @@
         flex-direction: row;
         justify-content: space-between;
         background-color: var(--primary-tint-c);
+        position: fixed;
+        top: 0;
+        z-index: 100;
     }
 
     .header__top img {
