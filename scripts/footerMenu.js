@@ -7,7 +7,6 @@ function footerMenu() {
     buttonLeft.addEventListener('click', () => {
         buttonLeft.classList.toggle('active')
         menuLeft.classList.toggle('active')
-        console.log(menuLeft)
     })
 
     buttonRight.addEventListener('click', () => {
