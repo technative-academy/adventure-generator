@@ -149,5 +149,6 @@ q:after {
     .stats__card__big__button:hover {
         background-color: var(--primary-c);
         color: var(--primary-tint-c);
+        transform: none;
     }
 }
