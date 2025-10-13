@@ -2,6 +2,7 @@ import Tabs from './allTabs.js';
 import burgerMenu from './burgerMenu.js';
 import JsonParser from './jsonParser.js';
 import footerMenu from './footerMenu.js';
+import productSearch from './productSearch.js';
 
 const tabs = new Tabs('.header__nav', '.main')
 const cardTabs = new Tabs('.tabs__card__list', '.tabs__card')

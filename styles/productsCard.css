@@ -31,8 +31,9 @@
 }
 
 .products__card__results__number {
+    font-style: italic;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .products__card__form__button:hover {
