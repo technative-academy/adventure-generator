@@ -75,7 +75,7 @@ function productSearch(e) {
             hideContent(productsContainer)
         })
         .catch((error) => {
-            this.dataError = true
+            dataError = true
             console.error(error)
         })
          
