@@ -62,4 +62,10 @@
     .signup__card__button {
         width: 80%;
     }
+
+    .signup__card__button:hover {
+        transform: none;
+        background-color: var(--primary-c);
+        color: var(--primary-tint-c);
+    }
 }
