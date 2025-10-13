@@ -47,6 +47,11 @@
     gap: 1rem;
 }
 
+.socials__image {
+    background: transparent;
+    border: none;
+}
+
 .socials__image:hover {
     transform: scale(1.2);
 }

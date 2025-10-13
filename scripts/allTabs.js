@@ -49,7 +49,7 @@ class Tabs {
             document.querySelector('.stats__card .tab__button').click()
         } else if (tab == 'products') {
             heading.textContent = 'Our products'
-            footnote.textContent = 'Adventure has never happened with a closed wallet'
+            footnote.textContent = 'Adventure has never happened with a closed wallet...'
             image.style.display = 'none'
         } else if (tab == 'about') {
             heading.textContent = 'About us'
