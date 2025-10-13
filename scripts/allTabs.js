@@ -10,7 +10,7 @@ class Tabs {
                 this.tabClicked(event)
             )
         })
-        console.log('constructed instance of Tabs class')
+       
     }
 
     tabClicked(event) {
@@ -31,7 +31,7 @@ class Tabs {
 
         clickedButton.classList.add('selected__button')
         detailsElement.classList.add('selected__tab')
-        console.log('button ' + tabId + ' has been pressed')
+        
 
         this.chooseContent(tabId)
     }
