@@ -18,7 +18,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1464822759844-d150baec493a",
+        "image_url": "https://www.nps.gov/grte/planyourvisit/images/Hiking-NPS-Photo-J-Tobiason_3.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
         "product_title": "Multi-Day Hiking Trek in Torres del Paine",
         "description": "Experience Patagonia's raw beauty on a 5-day guided trek through Torres del Paine National Park with camping under the stars.",
         "rating": 4.1,
@@ -27,7 +27,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1506378800146-d85cc3d52f50",
+        "image_url": "https://res.cloudinary.com/manawa/image/upload/f_auto,c_limit,w_1920,q_auto/articles/3025/rafting",
         "product_title": "White Water Rafting on the Zambezi River",
         "description": "Navigate thrilling Class IV rapids on one of Africa's most famous rivers with expert guides and safety equipment provided.",
         "rating": 3.4,
@@ -45,7 +45,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1486022651994-3e2d4db6ca2a",
+        "image_url": "https://dynamic-media.tacdn.com/media/photo-o/2f/1e/c2/6f/caption.jpg?w=1100&h=800&s=1",
         "product_title": "Desert Safari and Camel Trekking in Morocco",
         "description": "Journey into the Sahara Desert for a 3-day camel trekking expedition with traditional Berber camps and stargazing.",
         "rating": 4.3,
@@ -63,7 +63,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1558618644-fcd25c85cd64",
+        "image_url": "https://www.newzealand.com/assets/Digital-Platform-Use-Only/TBD-assets-on-nonlistings/img-1589270515-7129-22752-bwr_2017-sjp-5__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg",
         "product_title": "Cave Exploration in Kentucky's Mammoth Cave",
         "description": "Discover the world's longest known cave system with expert spelunking guides through underground rivers and chambers.",
         "rating": 4.9,
@@ -162,7 +162,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc0e",
+        "image_url": "https://cdn.outsideonline.com/wp-content/uploads/2025/03/desert-camping_s.jpg",
         "product_title": "Desert Camping in Wadi Rum, Jordan",
         "description": "Sleep under a blanket of stars in Jordan's Valley of the Moon with Bedouin guides and traditional desert hospitality.",
         "rating": 4.3,
@@ -171,7 +171,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1506284041256-8a6b0f4d3a37",
+        "image_url": "https://assets-eu-01.kc-usercontent.com/aa24ba70-9a12-01ae-259b-7ef588a0b2ef/1de294e9-6999-42ad-bdb7-7a6a4d342f27/coastal-views-along-the-cliffs-of-moher.jfif",
         "product_title": "Coastal Cliff Hiking in Ireland's Ring of Kerry",
         "description": "Walk along dramatic coastal cliffs and ancient stone circles on Ireland's most scenic peninsula with local cultural guides.",
         "rating": 4.3,
@@ -189,7 +189,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1506742484472-1f82da75b4f8",
+        "image_url": "https://media.wired.com/photos/65a6fa6386046da58ca6bc98/16:9/w_2400,h_1350,c_limit/iceclimbing-science-Arnold_TS_ICE_CRACK-BABY_D134679.jpg",
         "product_title": "Ice Climbing in Banff National Park",
         "description": "Master the art of ice climbing on frozen waterfalls in the Canadian Rockies with experienced ice climbing instructors.",
         "rating": 4.3,
@@ -216,7 +216,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1549887532-bbeea2a41e6f",
+        "image_url": "https://idahocapitalsun.com/wp-content/uploads/2023/06/Kilimanjaro-group-summit-2048x1536.jpg",
         "product_title": "Mountaineering Expedition on Mount Kilimanjaro",
         "description": "Conquer Africa's highest peak on a 7-day guided expedition with porter support and professional mountain guides.",
         "rating": 4.3,
@@ -234,7 +234,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+        "image_url": "https://venturesailholidays.com/wp-content/uploads/Zorba-full-sails-Greece-560x520.jpg",
         "product_title": "Sailing Expedition in the Greek Islands",
         "description": "Navigate the azure waters of the Aegean Sea aboard a traditional sailboat with stops at hidden coves and ancient ruins.",
         "rating": 4.0,
@@ -243,7 +243,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1464822759844-d150baec493a",
+        "image_url": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc8be881d592aae3bf99382816da1d30",
         "product_title": "Arctic Dog Sledding in Finnish Lapland",
         "description": "Mush your own team of huskies through snow-covered forests and frozen lakes in the magical Arctic wilderness.",
         "rating": 4.9,
@@ -252,7 +252,7 @@
         "difficulty": "Medium"
     },
     {
-        "image_url": "https://images.unsplash.com/photo-1506378800146-d85cc3d52f50",
+        "image_url": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/3d5d353b3e3cb7d9d87983ca394a9378",
         "product_title": "Bungee Jumping at Victoria Falls",
         "description": "Take the ultimate leap of faith from the historic Victoria Falls Bridge with 111 meters of pure adrenaline rush.",
         "rating": 4.8,
