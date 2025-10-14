@@ -4,209 +4,269 @@
         "product_title": "Alpine Rock Climbing in the Swiss Alps",
         "description": "Challenge yourself with guided rock climbing on the stunning limestone cliffs of the Swiss Alps. Suitable for intermediate to advanced climbers.",
         "rating": 4.3,
-        "cost": 285.0
+        "cost": 285.0,
+        "id": "product1",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1551632811-561732d1e306",
         "product_title": "Sea Kayaking Adventure in Palawan",
         "description": "Paddle through crystal-clear turquoise waters and explore hidden lagoons in the pristine archipelago of Palawan, Philippines.",
         "rating": 4.7,
-        "cost": 165.75
+        "cost": 165.75,
+        "id": "product2",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1464822759844-d150baec493a",
         "product_title": "Multi-Day Hiking Trek in Torres del Paine",
         "description": "Experience Patagonia's raw beauty on a 5-day guided trek through Torres del Paine National Park with camping under the stars.",
         "rating": 4.1,
-        "cost": 420.0
+        "cost": 420.0,
+        "id": "product3",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506378800146-d85cc3d52f50",
         "product_title": "White Water Rafting on the Zambezi River",
         "description": "Navigate thrilling Class IV rapids on one of Africa's most famous rivers with expert guides and safety equipment provided.",
         "rating": 3.4,
-        "cost": 195.5
+        "cost": 195.5,
+        "id": "product4",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
         "product_title": "Forest Canopy Zip Line Tour in Costa Rica",
         "description": "Soar through the treetops of the Monteverde Cloud Forest on an exhilarating zip line adventure with spectacular wildlife viewing.",
         "rating": 3.7,
-        "cost": 125.0
+        "cost": 125.0,
+        "id": "product5",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1486022651994-3e2d4db6ca2a",
         "product_title": "Desert Safari and Camel Trekking in Morocco",
         "description": "Journey into the Sahara Desert for a 3-day camel trekking expedition with traditional Berber camps and stargazing.",
         "rating": 4.3,
-        "cost": 310.25
+        "cost": 310.25,
+        "id": "product6",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1464207687429-7505649dae38",
         "product_title": "Volcano Hiking Experience in Iceland",
         "description": "Explore Iceland's dramatic volcanic landscapes with guided hikes to active craters and geothermal hot springs.",
         "rating": 4.8,
-        "cost": 240.0
+        "cost": 240.0,
+        "id": "product7",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1558618644-fcd25c85cd64",
         "product_title": "Cave Exploration in Kentucky's Mammoth Cave",
         "description": "Discover the world's longest known cave system with expert spelunking guides through underground rivers and chambers.",
         "rating": 4.9,
-        "cost": 145.75
+        "cost": 145.75,
+        "id": "product8",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
         "product_title": "Mountain Biking in Moab's Slickrock Trail",
         "description": "Ride the legendary Slickrock Trail in Moab, Utah, known for its challenging terrain and breathtaking red rock landscapes.",
         "rating": 4.0,
-        "cost": 180.0
+        "cost": 180.0,
+        "id": "product9",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85",
         "product_title": "Glacier Trekking in Norwegian Fjords",
         "description": "Walk on ancient glaciers in Norway's spectacular fjord region with professional mountaineering guides and safety equipment.",
         "rating": 4.3,
-        "cost": 375.5
+        "cost": 375.5,
+        "id": "product10",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9",
         "product_title": "Wildlife Photography Safari in Kruger National Park",
         "description": "Capture Africa's Big Five on a professional photography safari with expert wildlife guides in South Africa's premier game reserve.",
         "rating": 4.3,
-        "cost": 450.0
+        "cost": 450.0,
+        "id": "product11",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1560707303-4e980ce876ad",
         "product_title": "Scuba Diving in the Great Barrier Reef",
         "description": "Explore the world's largest coral reef system with certified dive masters and encounter tropical marine life in crystal-clear waters.",
         "rating": 4.2,
-        "cost": 220.75
+        "cost": 220.75,
+        "id": "product12",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699",
         "product_title": "Backcountry Skiing in the Canadian Rockies",
         "description": "Experience untouched powder snow in the backcountry of Banff National Park with avalanche-certified mountain guides.",
         "rating": 4.3,
-        "cost": 295.0
+        "cost": 295.0,
+        "id": "product13",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
         "product_title": "Jungle Trekking in the Amazon Rainforest",
         "description": "Immerse yourself in the world's most biodiverse ecosystem with indigenous guides and learn about medicinal plants and wildlife.",
         "rating": 4.1,
-        "cost": 385.25
+        "cost": 385.25,
+        "id": "product14",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
         "product_title": "Stand-Up Paddleboarding in Lake Tahoe",
         "description": "Glide across the pristine alpine waters of Lake Tahoe with SUP instruction and equipment provided for all skill levels.",
         "rating": 4.7,
-        "cost": 95.5
+        "cost": 95.5,
+        "id": "product15",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
         "product_title": "Via Ferrata Climbing in the Italian Dolomites",
         "description": "Experience the thrill of via ferrata routes through the dramatic limestone peaks of the Dolomites with professional guides.",
         "rating": 4.9,
-        "cost": 210.0
+        "cost": 210.0,
+        "id": "product16",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1500534623283-312aade485b7",
         "product_title": "Horseback Riding in Mongolian Steppes",
         "description": "Join nomadic herders on horseback expeditions across the vast Mongolian grasslands with traditional ger camp accommodation.",
         "rating": 4.8,
-        "cost": 340.75
+        "cost": 340.75,
+        "id": "product17",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e",
         "product_title": "Paragliding Over the Swiss Valleys",
         "description": "Soar like an eagle over the picturesque Swiss countryside with certified tandem paragliding instructors and breathtaking Alpine views.",
         "rating": 4.7,
-        "cost": 275.0
+        "cost": 275.0,
+        "id": "product18",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc0e",
         "product_title": "Desert Camping in Wadi Rum, Jordan",
         "description": "Sleep under a blanket of stars in Jordan's Valley of the Moon with Bedouin guides and traditional desert hospitality.",
         "rating": 4.3,
-        "cost": 155.25
+        "cost": 155.25,
+        "id": "product19",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506284041256-8a6b0f4d3a37",
         "product_title": "Coastal Cliff Hiking in Ireland's Ring of Kerry",
         "description": "Walk along dramatic coastal cliffs and ancient stone circles on Ireland's most scenic peninsula with local cultural guides.",
         "rating": 4.3,
-        "cost": 135.5
+        "cost": 135.5,
+        "id": "product20",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
         "product_title": "Surfing Lessons in Byron Bay, Australia",
         "description": "Learn to ride the waves at one of Australia's premier surf destinations with qualified instructors and quality equipment.",
         "rating": 3.2,
-        "cost": 110.0
+        "cost": 110.0,
+        "id": "product21",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506742484472-1f82da75b4f8",
         "product_title": "Ice Climbing in Banff National Park",
         "description": "Master the art of ice climbing on frozen waterfalls in the Canadian Rockies with experienced ice climbing instructors.",
         "rating": 4.3,
-        "cost": 320.75
+        "cost": 320.75,
+        "id": "product22",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
         "product_title": "Bushcraft Survival Course in Swedish Lapland",
         "description": "Learn essential wilderness survival skills in the pristine forests of northern Sweden including fire-making and shelter building.",
         "rating": 4.6,
-        "cost": 265.0
+        "cost": 265.0,
+        "id": "product23",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156",
         "product_title": "Snorkeling with Whale Sharks in the Maldives",
         "description": "Swim alongside gentle giants in the warm waters of the Maldives with marine biologist guides and underwater photography.",
         "rating": 2.4,
-        "cost": 395.5
+        "cost": 395.5,
+        "id": "product24",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1549887532-bbeea2a41e6f",
         "product_title": "Mountaineering Expedition on Mount Kilimanjaro",
         "description": "Conquer Africa's highest peak on a 7-day guided expedition with porter support and professional mountain guides.",
         "rating": 4.3,
-        "cost": 1250.0
+        "cost": 1250.0,
+        "id": "product25",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
         "product_title": "Canyoning Adventure in New Zealand's Queenstown",
         "description": "Rappel down waterfalls and navigate narrow gorges in the adventure capital of the world with certified canyon guides.",
         "rating": 4.3,
-        "cost": 185.25
+        "cost": 185.25,
+        "id": "product26",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
         "product_title": "Sailing Expedition in the Greek Islands",
         "description": "Navigate the azure waters of the Aegean Sea aboard a traditional sailboat with stops at hidden coves and ancient ruins.",
         "rating": 4.0,
-        "cost": 425.0
+        "cost": 425.0,
+        "id": "product27",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1464822759844-d150baec493a",
         "product_title": "Arctic Dog Sledding in Finnish Lapland",
         "description": "Mush your own team of huskies through snow-covered forests and frozen lakes in the magical Arctic wilderness.",
         "rating": 4.9,
-        "cost": 355.75
+        "cost": 355.75,
+        "id": "product28",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1506378800146-d85cc3d52f50",
         "product_title": "Bungee Jumping at Victoria Falls",
         "description": "Take the ultimate leap of faith from the historic Victoria Falls Bridge with 111 meters of pure adrenaline rush.",
         "rating": 4.8,
-        "cost": 125.5
+        "cost": 125.5,
+        "id": "product29",
+        "difficulty": "Medium"
     },
     {
         "image_url": "https://images.unsplash.com/photo-1464207687429-7505649dae38",
         "product_title": "Wilderness Canoe Trip in Algonquin Provincial Park",
         "description": "Paddle pristine Canadian wilderness lakes with overnight camping on remote islands and wildlife observation opportunities.",
         "rating": 4.3,
-        "cost": 245.0
+        "cost": 245.0,
+        "id": "product30",
+        "difficulty": "Medium"
     }
 ]

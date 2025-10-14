@@ -11,6 +11,7 @@
 @import './references.css';
 @import './burgerMenu.css';
 @import './footerMenu.css';
+@import './popUp.css';
 
 body {
     margin: 0;
@@ -95,7 +96,6 @@ h2 {
     }
 }
 
-
 @media screen and (max-width: 500px) {
     h2 {
         font-size: 1.5rem;
@@ -106,6 +106,6 @@ h2 {
     }
 
     p {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 }
