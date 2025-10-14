@@ -55,7 +55,7 @@ class JsonParser {
             prImage.src = product.image_url
             prTitle.textContent = product.product_title
             prEmDescription.textContent = product.description
-            prStrongPrice.textContent = product.cost + '£'
+            prStrongPrice.textContent = '£' + product.cost 
 
             prDescription.appendChild(prEmDescription)
             prPrice.appendChild(prStrongPrice)
