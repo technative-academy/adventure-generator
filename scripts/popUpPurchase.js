@@ -21,8 +21,11 @@ class PopUp {
         const popUpImage = document.createElement('img')
         const popUpTitle = document.createElement('h1')
         const popUpDescription = document.createElement('p')
+        const popUpDetails = document.createElement('div')
         const popUpDifficulty = document.createElement('p')
+        const popUpRating = document.createElement('p')
         const popUpPrice = document.createElement('strong')
+        const popUpButtonContainer = document.createElement('div')
         const popUpPurchase = document.createElement('button')
         const popUpAddToCart = document.createElement('button')
         const popUpClose = document.createElement('button')
@@ -31,6 +34,7 @@ class PopUp {
         popUpTitle.textContent = jsonEntry.product_title
         popUpDescription.textContent = jsonEntry.description
         popUpDifficulty.textContent = 'Difficulty: ' + jsonEntry.difficulty
+        popUpRating.textContent = 'Rating: ' + jsonEntry.rating
         popUpPrice.textContent = jsonEntry.cost + '£'
         popUpPurchase.textContent = 'Purchase Now'
         popUpAddToCart.textContent = 'Add to Cart'
@@ -42,22 +46,30 @@ class PopUp {
         popUpImage.classList.add('popup__image')
         popUpTitle.classList.add('popup__title')
         popUpDescription.classList.add('popup__description')
-        popUpDifficulty.classList.add('popup__difficulty')
+        popUpDetails.classList.add('popup__details')
+        popUpDifficulty.classList.add('popup__short__paragraph')
+        popUpRating.classList.add('popup__short__paragraph')
         popUpPrice.classList.add('popup__price')
-        popUpPurchase.classList.add('popup__purchase')
-        popUpAddToCart.classList.add('popup__addtocart')
-        popUpClose.classList.add('popup__close')
+        popUpButtonContainer.classList.add('popup__button__container')
+        popUpPurchase.classList.add('popup__button')
+        popUpAddToCart.classList.add('popup__button')
+        popUpClose.classList.add('popup__button')
 
         popUpClose.addEventListener('click', this.destroyPopUp.bind(this))
+
+        popUpButtonContainer.appendChild(popUpPurchase)
+        popUpButtonContainer.appendChild(popUpAddToCart)
+        popUpButtonContainer.appendChild(popUpClose)
+
+        popUpDetails.appendChild(popUpDifficulty)
+        popUpDetails.appendChild(popUpRating)
+        popUpDetails.appendChild(popUpPrice)
 
         popUpDiv.appendChild(popUpImage)
         popUpDiv.appendChild(popUpTitle)
         popUpDiv.appendChild(popUpDescription)
-        popUpDiv.appendChild(popUpDifficulty)
-        popUpDiv.appendChild(popUpPrice)
-        popUpDiv.appendChild(popUpPurchase)
-        popUpDiv.appendChild(popUpAddToCart)
-        popUpDiv.appendChild(popUpClose)
+        popUpDiv.appendChild(popUpDetails)
+        popUpDiv.appendChild(popUpButtonContainer)
 
         popUpContainer.appendChild(popUpDiv)
 
