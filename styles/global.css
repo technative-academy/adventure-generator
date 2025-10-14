@@ -11,6 +11,7 @@
 @import './references.css';
 @import './burgerMenu.css';
 @import './footerMenu.css';
+@import './popUp.css';
 
 body {
     margin: 0;
@@ -94,7 +95,6 @@ h2 {
         color: var(--primary-tint-c);
     }
 }
-
 
 @media screen and (max-width: 500px) {
     h2 {

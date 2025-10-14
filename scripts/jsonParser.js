@@ -1,5 +1,6 @@
 import hideContent from './hideContent.js'
 import drawRating from './rating.js'
+import PopUp from './popUpPurchase.js'
 
 class JsonParser {
     constructor() {
@@ -23,7 +24,11 @@ class JsonParser {
     }
 
     createProductsHtml(jsonData) {
-        console.log(jsonData)
+        const popUp = new PopUp()
+        const dataById = {}
+        jsonData.forEach((item) => {
+            dataById[item.id] = item
+        })
         jsonData.forEach((product) => {
             const prImage = document.createElement('img')
             const prTitle = document.createElement('h3')
@@ -33,6 +38,13 @@ class JsonParser {
             const prPrice = document.createElement('p')
             const prDiv = document.createElement('div')
             const prRating = document.createElement('div')
+
+            prDiv.addEventListener('click', (event) =>
+                popUp.createPopUp(event, dataById)
+            )
+            prRating.addEventListener('click', (event) =>
+                popUp.createPopUp(event, dataById)
+            )
 
             prImage.classList.add('products__card__result__image')
             prTitle.classList.add('products__card__result__heading')
