@@ -35,7 +35,7 @@ class PopUp {
         popUpDescription.textContent = jsonEntry.description
         popUpDifficulty.textContent = 'Difficulty: ' + jsonEntry.difficulty
         popUpRating.textContent = 'Rating: ' + jsonEntry.rating
-        popUpPrice.textContent = jsonEntry.cost + '£'
+        popUpPrice.textContent = '£' + jsonEntry.cost 
         popUpPurchase.textContent = 'Purchase Now'
         popUpAddToCart.textContent = 'Add to Cart'
         popUpClose.textContent = 'Close'

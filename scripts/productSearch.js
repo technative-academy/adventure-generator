@@ -59,7 +59,7 @@ function productSearch(e) {
                 prImage.src = result.image_url
                 prTitle.textContent = result.product_title
                 prEmDescription.textContent = result.description
-                prStrongPrice.textContent = result.cost + '£'
+                prStrongPrice.textContent = '£' + result.cost
 
                 prDescription.appendChild(prEmDescription)
                 prPrice.appendChild(prStrongPrice)
