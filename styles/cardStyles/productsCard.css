@@ -50,7 +50,8 @@
 
 .products__card__result {
     width: 20%;
-    min-width: 10rem;
+    min-width: 15rem;
+    max-width: 20rem;
     padding: 3rem;
     display: flex;
     flex-direction: column;
