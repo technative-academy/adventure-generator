@@ -6,13 +6,19 @@ searchButton.addEventListener('click', productSearch)
 
 function productSearch(e) {
     e.preventDefault()
-    const term = document.querySelector('.products__card__form__input').value.toLowerCase()
+    const term = document
+        .querySelector('.products__card__form__input')
+        .value.toLowerCase()
     const productsContainer = document.querySelector(
         '.products__card__container'
     )
-    document.querySelector('.products__card__form__input').value = "";
-    const resultsNumber = document.querySelector('.products__card__results__number')
-    productsContainer.innerHTML = ''
+    document.querySelector('.products__card__form__input').value = ''
+    const resultsNumber = document.querySelector(
+        '.products__card__results__number'
+    )
+    Array.from(productsContainer.children).forEach((product) => {
+        product.classList.add('hidden__content')
+    })
     console.log(term)
     fetch('./data/products.json')
         .then((response) => {
@@ -28,59 +34,24 @@ function productSearch(e) {
                     product.description.toLowerCase().includes(term)
             )
             return results
-            
-        }) 
+        })
         .then((result) => {
-            if(result.length === 0) {
+            if (result.length === 0) {
                 resultsNumber.innerHTML = `There are no results for ${term}`
-            } if(result.length === 1) {
+            }
+            if (result.length === 1) {
                 resultsNumber.innerHTML = `There is 1 result for ${term}`
             } else {
-                resultsNumber.innerHTML = `There are ${result.length} results for ${term}` 
+                resultsNumber.innerHTML = `There are ${result.length} results for ${term}`
             }
             result.forEach((result) => {
-                const prImage = document.createElement('img')
-                const prTitle = document.createElement('h3')
-                const prEmDescription = document.createElement('em')
-                const prDescription = document.createElement('p')
-                const prStrongPrice = document.createElement('strong')
-                const prPrice = document.createElement('p')
-                const prDiv = document.createElement('div')
-                const prRating = document.createElement('div')
-
-                prImage.classList.add('products__card__result__image')
-                prTitle.classList.add('products__card__result__heading')
-                prDescription.classList.add(
-                    'products__card__result__description'
-                )
-                prPrice.classList.add('products__card__result__cost')
-                prDiv.classList.add('products__card__result')
-
-                prImage.src = result.image_url
-                prTitle.textContent = result.product_title
-                prEmDescription.textContent = result.description
-                prStrongPrice.textContent = '£' + result.cost
-
-                prDescription.appendChild(prEmDescription)
-                prPrice.appendChild(prStrongPrice)
-                drawRating(result.rating, prRating)
-
-                prDiv.appendChild(prImage)
-                prDiv.appendChild(prTitle)
-                prDiv.appendChild(prDescription)
-                prDiv.appendChild(prRating)
-                prDiv.appendChild(prPrice)
-
-                productsContainer.appendChild(prDiv)
-                
+                const resultingElement = document.getElementById(result.id)
+                resultingElement.classList.remove('hidden__content')
             })
-            hideContent(productsContainer)
         })
         .catch((error) => {
-            dataError = true
             console.error(error)
         })
-         
-} 
+}
 
 export default productSearch
