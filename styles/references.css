@@ -10,6 +10,7 @@
 }
 
 .references__text {
+    text-align: center;
     color: var(--text-body-c);
 }
 
